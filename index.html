@@ -21,44 +21,41 @@ gtag('config', 'G-KKWWH08690');
 
 </head>
 
-<body>
-
-<!-- HEADER -->
 <header class="header">
-<div class="nav container">
+<div class="container header-inner">
 
-<img src="/images/logo.png" class="logo" alt="PithyPop">
+<img src="/images/logo.svg" class="logo">
 
 <nav class="menu">
 <a href="#">Inicio</a>
-<a href="#blog">Actividades</a>
+<a href="#articulos">Aprender</a>
 <a href="#subscribe">Suscribirse</a>
 </nav>
 
 </div>
 </header>
 
-<!-- HERO -->
+
+<main>
+
 <section class="hero">
 <div class="container">
 
+<h1 class="hero-title">
+Aprende las tablas de multiplicar jugando
+</h1>
+
 <div class="hero-card">
 
-<video 
-class="hero-video"
-autoplay 
-muted 
-loop 
-playsinline
-poster="/images/poster.jpg"
->
-<source src="https://res.cloudinary.com/ddgfhjwlr/video/upload/v1764371898/IntroPageSilence_Hecho_con_Clipchamp_2_st3hik.mp4" type="video/mp4">
+<div class="hero-media">
+<video autoplay muted loop playsinline poster="/images/poster.jpg">
+<source src="https://player.cloudinary.com/embed/?cloud_name=ddgfhjwlr&public_id=IntroPageSilence_Hecho_con_Clipchamp_2_st3hik" type="video/mp4">
 </video>
 
-<div class="hero-cta">
-<a href="#" class="btn-primary">
+<a href="#" class="btn-primary hero-btn">
 Descargar App
 </a>
+
 </div>
 
 </div>
@@ -66,24 +63,42 @@ Descargar App
 </div>
 </section>
 
-<!-- FEATURES -->
-<section class="section">
+
+<section id="articulos" class="section">
 <div class="container">
 
-<h2>Aprender matemáticas nunca fue tan divertido</h2>
-<p>Explota burbujas y domina las tablas de multiplicar</p>
+<h2 class="section-title">Aprende jugando</h2>
+
+<div class="cards">
+
+<article class="card">
+<img src="/images/articulo1.jpg">
+<div class="card-body">
+<h3>Aprender tablas de multiplicar</h3>
+<p>Descubre cómo aprender jugando</p>
+</div>
+</article>
+
+<article class="card">
+<img src="/images/articulo2.jpg">
+<div class="card-body">
+<h3>Juego educativo infantil</h3>
+<p>Matemáticas divertidas</p>
+</div>
+</article>
+
+</div>
 
 </div>
 </section>
 
-<!-- MAILCHIMP -->
-<section class="section" id="subscribe">
+
+<section id="subscribe" class="section">
 <div class="container">
 
 <div class="subscribe">
 
 <h2>Recibe actividades gratis</h2>
-<p>Juegos y recursos para aprender las tablas de multiplicar</p>
 
 <form 
 id="mc-form"
@@ -92,40 +107,31 @@ method="post"
 target="hidden_iframe"
 >
 
-<input 
-type="email" 
-name="EMAIL" 
-placeholder="Tu email"
-required
->
+<input type="email" name="EMAIL" placeholder="Tu email" required>
 
-<!-- anti bot -->
-<div style="position:absolute; left:-5000px;" aria-hidden="true">
-<input type="text" name="b_ce7060ab31b0750080d1a9743_df599e6144" tabindex="-1">
+<div style="position:absolute; left:-5000px;">
+<input type="text" name="b_ce7060ab31b0750080d1a9743_df599e6144">
 </div>
 
-<button type="submit">
-Suscribirme
-</button>
+<button>Suscribirme</button>
 
 </form>
 
-<!-- mensaje -->
-<div id="mc-message" style="display:none; margin-top:15px;">
-✅ ¡Gracias! Revisa tu correo para confirmar.
-</div>
+<div id="mc-message">Gracias por suscribirte</div>
 
-<!-- iframe oculto -->
 <iframe name="hidden_iframe" style="display:none;"></iframe>
 
 </div>
+
 </div>
 </section>
 
-<!-- FOOTER -->
+</main>
+
+
 <footer class="footer">
 <div class="container">
-© PithyPop - Aprende matemáticas jugando
+© PithyPop
 </div>
 </footer>
 
