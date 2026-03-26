@@ -1,43 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
 
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>PithyPop – Juego educativo para aprender las tablas de multiplicar</title>
-<meta name="description" content="PithyPop es un juego educativo para niños que ayuda a aprender las tablas de multiplicar explotando burbujas de forma divertida.">
+<title>PithyPop - Aprende tablas de multiplicar jugando</title>
+<meta name="description" content="PithyPop es una app educativa para aprender las tablas de multiplicar jugando con burbujas. Matemáticas divertidas para niños.">
 
-<link rel="canonical" href="https://www.pithypop.com/">
-
-<link rel="stylesheet" href="/css/styles.css">
-
-<!-- Open Graph -->
-<meta property="og:title" content="PithyPop – Aprende las tablas de multiplicar jugando">
-<meta property="og:description" content="Juego educativo infantil para aprender multiplicación explotando burbujas.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.pithypop.com/">
-<meta property="og:image" content="https://www.pithypop.com/images/pithypop-preview.jpg">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PithyPop – Aprende jugando">
-<meta name="twitter:description" content="Juego educativo para aprender las tablas de multiplicar">
-<meta name="twitter:image" content="https://www.pithypop.com/images/pithypop-preview.jpg">
-
-<!-- hreflang -->
-<link rel="alternate" hreflang="es" href="https://www.pithypop.com/">
-<link rel="alternate" hreflang="en" href="https://www.pithypop.com/en/">
-
-<!-- Favicon -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="manifest" href="/site.webmanifest">
-
-<!-- CSS -->
 <link rel="stylesheet" href="/css/styles.css">
 
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKWWH08690"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -49,94 +23,122 @@ gtag('config', 'G-KKWWH08690');
 
 <body>
 
+<!-- HEADER -->
 <header class="header">
-<div class="container">
+<div class="nav container">
 
-<div class="logo">
-<img src="/images/logo.svg" alt="PithyPop">
-</div>
+<img src="/images/logo.png" class="logo" alt="PithyPop">
 
 <nav class="menu">
-<a href="/">Inicio</a>
-<a href="/#articulos">Aprender</a>
-<a href="/#descargar">Descargar</a>
+<a href="#">Inicio</a>
+<a href="#blog">Actividades</a>
+<a href="#subscribe">Suscribirse</a>
 </nav>
 
 </div>
 </header>
 
-<main>
-
+<!-- HERO -->
 <section class="hero">
+<div class="container">
 
 <div class="hero-card">
 
-<div class="hero-video">
-
 <video 
-poster="/images/poster.jpg"
-playsinline 
+class="hero-video"
 autoplay 
 muted 
-loop>
-
+loop 
+playsinline
+poster="/images/poster.jpg"
+>
 <source src="https://res.cloudinary.com/ddgfhjwlr/video/upload/v1764371898/IntroPageSilence_Hecho_con_Clipchamp_2_st3hik.mp4" type="video/mp4">
-
 </video>
 
-<a href="#descargar" class="hero-cta">
+<div class="hero-cta">
+<a href="#" class="btn-primary">
 Descargar App
 </a>
-
 </div>
 
 </div>
 
+</div>
 </section>
 
-<section id="articulos" class="articulos">
+<!-- FEATURES -->
+<section class="section">
+<div class="container">
 
-<h2>Aprende las tablas jugando</h2>
-
-<div class="grid-articulos">
-
-<!-- articulo -->
-<article class="card">
-<img src="/images/articulo1.jpg" loading="lazy">
-<h3>Aprender tablas de multiplicar jugando</h3>
-<p>Descubre cómo los niños aprenden multiplicación con PithyPop.</p>
-<a href="/aprender-tablas-multiplicar/">Leer más</a>
-</article>
+<h2>Aprender matemáticas nunca fue tan divertido</h2>
+<p>Explota burbujas y domina las tablas de multiplicar</p>
 
 </div>
-
 </section>
 
-<section class="newsletter">
+<!-- MAILCHIMP -->
+<section class="section" id="subscribe">
+<div class="container">
 
-<h2>Recibe actividades educativas</h2>
+<div class="subscribe">
 
-<form id="newsletter-form">
+<h2>Recibe actividades gratis</h2>
+<p>Juegos y recursos para aprender las tablas de multiplicar</p>
+
+<form 
+id="mc-form"
+action="https://pithypop.us4.list-manage.com/subscribe/post?u=ce7060ab31b0750080d1a9743&id=df599e6144&f_id=00dec2e9f0"
+method="post"
+target="hidden_iframe"
+>
 
 <input 
 type="email" 
-placeholder="Tu correo"
+name="EMAIL" 
+placeholder="Tu email"
 required
 >
 
-<button>Suscribirme</button>
+<!-- anti bot -->
+<div style="position:absolute; left:-5000px;" aria-hidden="true">
+<input type="text" name="b_ce7060ab31b0750080d1a9743_df599e6144" tabindex="-1">
+</div>
+
+<button type="submit">
+Suscribirme
+</button>
 
 </form>
 
+<!-- mensaje -->
+<div id="mc-message" style="display:none; margin-top:15px;">
+✅ ¡Gracias! Revisa tu correo para confirmar.
+</div>
+
+<!-- iframe oculto -->
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+</div>
+</div>
 </section>
 
-</main>
-
+<!-- FOOTER -->
 <footer class="footer">
-
-<p>© PithyPop</p>
-
+<div class="container">
+© PithyPop - Aprende matemáticas jugando
+</div>
 </footer>
+
+<script>
+document.getElementById("mc-form").addEventListener("submit", function() {
+
+setTimeout(function() {
+document.getElementById("mc-message").style.display = "block";
+document.getElementById("mc-form").reset();
+}, 800);
+
+});
+</script>
 
 </body>
 </html>
