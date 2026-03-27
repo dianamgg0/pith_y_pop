@@ -1,11 +1,18 @@
+/* =========================
+PITHYPOP DESIGN SYSTEM
+========================= */
+
 :root{
---primary:#5BC46D;
+--primary:#58C26D;
+--primary-dark:#34A853;
+--bg:#F6F8FB;
 --text:#1f2937;
---bg:#f6f8fb;
 --card:#ffffff;
---radius:20px;
+--radius:22px;
 --shadow:0 20px 40px rgba(0,0,0,.06);
 }
+
+/* RESET */
 
 *{
 margin:0;
@@ -14,10 +21,13 @@ box-sizing:border-box;
 }
 
 body{
-font-family:system-ui;
+font-family: "Inter", system-ui, -apple-system, sans-serif;
 background:var(--bg);
 color:var(--text);
+line-height:1.5;
 }
+
+/* CONTAINER */
 
 .container{
 max-width:1100px;
@@ -29,7 +39,7 @@ padding:20px;
 
 .header{
 background:white;
-box-shadow:0 2px 10px rgba(0,0,0,.05);
+box-shadow:0 2px 12px rgba(0,0,0,.04);
 }
 
 .header-inner{
@@ -44,13 +54,14 @@ height:42px;
 
 .menu{
 display:flex;
-gap:20px;
+gap:24px;
 }
 
 .menu a{
 text-decoration:none;
 color:var(--text);
 font-weight:500;
+font-size:15px;
 }
 
 /* HERO */
@@ -62,11 +73,14 @@ padding-top:20px;
 .hero-title{
 text-align:center;
 font-size:28px;
+font-weight:600;
 margin-bottom:20px;
 }
 
+/* CARD VIDEO */
+
 .hero-card{
-background:white;
+background:var(--card);
 border-radius:var(--radius);
 box-shadow:var(--shadow);
 overflow:hidden;
@@ -76,14 +90,19 @@ margin:auto;
 
 .hero-media{
 position:relative;
+width:100%;
 aspect-ratio:16/9;
+background:#000;
 }
 
 .hero-media video{
 width:100%;
 height:100%;
 object-fit:cover;
+display:block;
 }
+
+/* BOTON SOBRE VIDEO */
 
 .hero-btn{
 position:absolute;
@@ -100,16 +119,18 @@ padding:14px 22px;
 border-radius:999px;
 text-decoration:none;
 font-weight:600;
+box-shadow:0 6px 18px rgba(0,0,0,.15);
 }
 
 /* SECTION */
 
 .section{
-margin-top:40px;
+margin-top:50px;
 }
 
 .section-title{
 text-align:center;
+font-size:24px;
 margin-bottom:20px;
 }
 
@@ -129,6 +150,7 @@ overflow:hidden;
 
 .card img{
 width:100%;
+display:block;
 }
 
 .card-body{
@@ -136,7 +158,13 @@ padding:16px;
 }
 
 .card h3{
+font-size:18px;
 margin-bottom:6px;
+}
+
+.card p{
+font-size:14px;
+color:#6b7280;
 }
 
 /* SUBSCRIBE */
@@ -146,9 +174,9 @@ background:white;
 padding:30px;
 border-radius:var(--radius);
 box-shadow:var(--shadow);
-text-align:center;
 max-width:500px;
 margin:auto;
+text-align:center;
 }
 
 .subscribe input{
@@ -156,29 +184,24 @@ width:100%;
 padding:14px;
 border-radius:999px;
 border:1px solid #ddd;
-margin-top:10px;
+margin-top:12px;
 }
 
 .subscribe button{
 width:100%;
 padding:14px;
-margin-top:10px;
 border-radius:999px;
 border:none;
 background:var(--primary);
 color:white;
-}
-
-#mc-message{
-display:none;
 margin-top:10px;
-color:green;
+font-weight:600;
 }
 
 /* FOOTER */
 
 .footer{
-margin-top:40px;
+margin-top:60px;
 padding:30px;
 text-align:center;
 color:#888;
@@ -188,12 +211,39 @@ color:#888;
 
 @media(min-width:768px){
 
+.hero-title{
+font-size:36px;
+}
+
 .cards{
 grid-template-columns:repeat(3,1fr);
 }
 
-.hero-title{
-font-size:36px;
+.subscribe form{
+display:flex;
+gap:10px;
+}
+
+.subscribe input{
+margin:0;
+}
+
+.subscribe button{
+width:auto;
+}
+
+}
+
+/* LARGE DESKTOP */
+
+@media(min-width:1200px){
+
+.container{
+max-width:1200px;
+}
+
+.hero-card{
+max-width:950px;
 }
 
 }
