@@ -40,6 +40,9 @@ padding:20px;
 .header{
 background:white;
 box-shadow:0 2px 12px rgba(0,0,0,.04);
+position:sticky;
+top:0;
+z-index:10;
 }
 
 .header-inner{
@@ -67,7 +70,7 @@ font-size:15px;
 /* HERO */
 
 .hero{
-padding-top:20px;
+padding:40px 0 10px;
 }
 
 .hero-title{
@@ -75,6 +78,7 @@ text-align:center;
 font-size:28px;
 font-weight:600;
 margin-bottom:20px;
+padding:0 10px;
 }
 
 /* CARD VIDEO */
@@ -120,6 +124,7 @@ border-radius:999px;
 text-decoration:none;
 font-weight:600;
 box-shadow:0 6px 18px rgba(0,0,0,.15);
+display:inline-block;
 }
 
 /* SECTION */
@@ -146,6 +151,11 @@ background:white;
 border-radius:var(--radius);
 box-shadow:var(--shadow);
 overflow:hidden;
+transition:.2s;
+}
+
+.card:hover{
+transform:translateY(-4px);
 }
 
 .card img{
@@ -154,7 +164,7 @@ display:block;
 }
 
 .card-body{
-padding:16px;
+padding:18px;
 }
 
 .card h3{
@@ -179,6 +189,11 @@ margin:auto;
 text-align:center;
 }
 
+.subscribe h2{
+font-size:22px;
+margin-bottom:8px;
+}
+
 .subscribe input{
 width:100%;
 padding:14px;
@@ -196,6 +211,16 @@ background:var(--primary);
 color:white;
 margin-top:10px;
 font-weight:600;
+cursor:pointer;
+}
+
+/* MAILCHIMP MESSAGE */
+
+#mc-message{
+display:none;
+margin-top:10px;
+color:var(--primary-dark);
+font-weight:600;
 }
 
 /* FOOTER */
@@ -205,9 +230,12 @@ margin-top:60px;
 padding:30px;
 text-align:center;
 color:#888;
+font-size:14px;
 }
 
-/* DESKTOP */
+/* =========================
+TABLET
+========================= */
 
 @media(min-width:768px){
 
@@ -234,7 +262,9 @@ width:auto;
 
 }
 
-/* LARGE DESKTOP */
+/* =========================
+DESKTOP
+========================= */
 
 @media(min-width:1200px){
 
@@ -244,6 +274,10 @@ max-width:1200px;
 
 .hero-card{
 max-width:950px;
+}
+
+.hero-title{
+font-size:42px;
 }
 
 }
