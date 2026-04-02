@@ -281,3 +281,12 @@ font-size:42px;
 }
 
 }
+.hero-brand{
+text-align:center;
+margin-top:16px;
+}
+
+.hero-brand img{
+height:36px;
+opacity:.9;
+}
