@@ -130,7 +130,7 @@ display:inline-block;
 /* SECTION */
 
 .section{
-margin-top:50px;
+margin-top:20px;
 }
 
 .section-title{
@@ -283,7 +283,7 @@ font-size:42px;
 }
 .hero-brand{
 text-align:center;
-margin-top:16px;
+margin-top:10px;
 }
 
 .hero-brand img{
