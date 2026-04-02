@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PithyPop logo">
+  <defs>
+    <linearGradient id="face" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8BEA4E"/>
+      <stop offset="100%" stop-color="#5BCB3A"/>
+    </linearGradient>
+  </defs>
+  
+<g transform="translate(0,15)">
+  
+  <!-- Borde ojos -->
+<g transform="translate(0,5)">
+  
+  <g transform="translate(0,5)">  
+  <circle cx="160" cy="150" r="72" fill="#1E8E3E"/>
+  </g>
+  <g transform="translate(0,5)">  
+  <circle cx="352" cy="150" r="72" fill="#1E8E3E"/>
+  </g>
+</g>
+  <!-- cabeza -->
+<ellipse cx="256" cy="260" rx="180" ry="130" fill="url(#face)" stroke="#1E8E3E" stroke-width="14"/>
+
+  <!-- ojos -->
+  
+<g transform="translate(0,10)">
+  
+  <circle cx="160" cy="150" r="60" fill="#F5F5F0"/>
+  <circle cx="352" cy="150" r="60" fill="#F5F5F0"/>
+
+  <circle cx="160" cy="150" r="40" fill="#2F3E3B"/>
+  <circle cx="352" cy="150" r="40" fill="#2F3E3B"/>
+
+  <g transform="translate(0,0)">
+  <circle cx="172" cy="138" r="10" fill="#fff"/>
+  </g>
+  <g transform="translate(-20,0)">
+  <circle cx="364" cy="138" r="10" fill="#fff"/>
+  </g>
+</g>
+
+  <!-- mejillas -->
+  <g transform="translate(0,-10)">
+  <circle cx="130" cy="260" r="22" fill="#F7A98C"/>
+  <circle cx="382" cy="260" r="22" fill="#F7A98C"/>
+  </g>
+  <!-- sonrisa -->
+  <g transform="translate(0,-30)">
+  <path d="M200 285 Q256 325 312 285" 
+        fill="none" 
+        stroke="#1E8E3E" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  </g>
+</g>
+</svg>
