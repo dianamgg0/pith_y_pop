@@ -84,9 +84,9 @@ padding:0 10px;
 /* CARD VIDEO */
 
 .hero-card{
-background:var(--card);
-border-radius:var(--radius);
-box-shadow:var(--shadow);
+background:white;
+border-radius:22px;
+box-shadow:0 20px 40px rgba(0,0,0,.06);
 overflow:hidden;
 max-width:900px;
 margin:auto;
@@ -96,22 +96,38 @@ margin:auto;
 position:relative;
 width:100%;
 aspect-ratio:16/9;
-background:#000;
 }
 
-.hero-media video{
+.hero-poster{
+position:absolute;
 width:100%;
 height:100%;
 object-fit:cover;
-display:block;
+}
+
+.hero-media video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
 }
 
 /* BOTON SOBRE VIDEO */
 
 .hero-btn{
 position:absolute;
-bottom:20px;
-left:20px;
+bottom:18px;
+left:18px;
+z-index:2;
+}
+
+.hero-logo{
+position:absolute;
+bottom:18px;
+left:50%;
+transform:translateX(-50%);
+height:42px;
+z-index:2;
 }
 
 /* BUTTON */
