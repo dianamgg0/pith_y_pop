@@ -124,10 +124,18 @@ display:block;
 
 .hero-btn{
 position:absolute;
-bottom:20px;
-left:20px;
+bottom:18px;
+left:50%;
+transform:translateX(-50%);
+z-index:2;
 }
 
+.hero-btn img{
+height:54px;
+width:auto;
+display:block;
+filter: drop-shadow(0 10px 24px rgba(0,0,0,.35));
+}
 /* BUTTON */
 
 .btn-primary{
