@@ -38,17 +38,16 @@ padding:20px;
 /* HEADER */
 
 .header{
-background:white;
-box-shadow:0 2px 12px rgba(0,0,0,.04);
-position:sticky;
-top:0;
-z-index:10;
+background:transparent;
+box-shadow:none;
 }
 
 .header-inner{
-display:flex;
-justify-content:space-between;
-align-items:center;
+background:white;
+margin:0 10px 10px;
+border-radius:0 0 18px 18px;
+box-shadow:0 8px 24px rgba(0,0,0,.06);
+padding:12px 16px;
 }
 
 .logo{
@@ -56,12 +55,9 @@ height:42px;
 }
 
 .brand-top{
-display:flex;
-justify-content:center;
-align-items:center;
-padding:10px 0 6px;
 background:#FFF6CC;
-border-bottom:1px solid rgba(0,0,0,.04);
+margin:10px 10px 0;
+border-radius:18px 18px 0 0;
 }
 
 .brand-logo{
