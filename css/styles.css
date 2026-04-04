@@ -59,9 +59,10 @@ height:42px;
 display:flex;
 justify-content:center;
 align-items:center;
-padding:8px 0 2px;
+padding:10px 0 6px;
+background:#FFF6CC;
+border-bottom:1px solid rgba(0,0,0,.04);
 }
-
 .brand-logo{
 height:24px;
 width:auto;
