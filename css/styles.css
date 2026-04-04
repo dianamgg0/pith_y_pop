@@ -136,6 +136,10 @@ height:auto;
 z-index:3;
 }
 
+.hero .container{
+padding:0;
+}
+
 /* BUTTON */
 
 .btn-primary{
