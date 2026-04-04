@@ -55,6 +55,20 @@ align-items:center;
 height:42px;
 }
 
+.brand-top{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:12px 0 4px;
+}
+
+.brand-logo{
+width:220px;
+max-width:70vw;
+height:auto;
+display:block;
+}
+
 .menu{
 display:flex;
 gap:24px;
