@@ -19,6 +19,7 @@ preserveAspectRatio="xMidYMid meet">
   </defs>
 
   <g filter="url(#softShadow)" 
+     text-rendering="geometricPrecision" 
      font-family="Fredoka, Baloo, Nunito, Arial Rounded MT Bold, sans-serif" 
      font-weight="700"
      font-size="150"
