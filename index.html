@@ -43,6 +43,8 @@
 
 <link rel="stylesheet" href="css/styles.css">
 
+<link rel="preload" as="video" href="https://res.cloudinary.com/ddgfhjwlr/video/upload/v1775330259/IntroPageSilence_1_q2tbci.mp4" type="video/mp4">  
+
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKWWH08690"></script>
 <script>
@@ -76,12 +78,12 @@ gtag('config', 'G-KKWWH08690');
 <header class="header">
 
 <div class="brand-top">
-<img src="images/pithypop.svg" class="brand-logo" alt="PithyPop">
+<img src="images/pithypop.svg" class="brand-logo" alt="PithyPop" width="720" height="200">
 </div>
 
 <div class="container header-inner">
 
-<img src="images/logo.svg" class="logo" alt="PithyPop juego educativo">
+<img src="images/logo.svg" class="logo" alt="PithyPop juego educativo"width="48" height="48">
 
 <nav class="menu">
 <a href="#">Inicio</a>
@@ -95,7 +97,7 @@ gtag('config', 'G-KKWWH08690');
 
 <main>
 
-<section class="hero">
+<section class="hero" aria-label="Aprender tablas de multiplicar con PithyPop">
 <div class="container">
  
 <h1 class="hero-title">
@@ -106,15 +108,17 @@ Aprende las tablas de multiplicar jugando con PithyPop
 
 <div class="hero-media">
 
-<video autoplay muted loop playsinline poster="images/poster.jpg">
+<video autoplay muted loop playsinline poster="images/poster.jpg" preload="none" width="1280" height="720">
 <source src="https://res.cloudinary.com/ddgfhjwlr/video/upload/v1775330259/IntroPageSilence_1_q2tbci.mp4" type="video/mp4">
 </video>
 
 <div class="hero-btn">
-  <a href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop" 
+<a 
+href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop"
 class="play-wrapper"
 target="_blank"
-rel="noopener">
+rel="noopener"
+aria-label="Descargar PithyPop en Google Play">
     <img src="images/google-play-badge.svg" alt="Disponible en Google Play">
   </a>
 </div>
@@ -135,7 +139,7 @@ rel="noopener">
 <div class="cards">
 
 <article class="card">
-<img src="images/huevo.jpg" alt="Aprender tablas de multiplicar jugando">
+<img src="images/huevo.jpg" loading="lazy"  alt="Aprender tablas de multiplicar jugando" width="960" height="740">
 <div class="card-body">
 <h3>Aprender tablas de multiplicar</h3>
 <p>Descubre cómo aprender jugando</p>
@@ -143,7 +147,7 @@ rel="noopener">
 </article>
 
 <article class="card">
-<img src="images/popit.jpg" alt="Juego educativo matemáticas niños">
+<img src="images/popit.jpg" loading="lazy" alt="Juego educativo matemáticas niños" width="960" height="740">
 <div class="card-body">
 <h3>Juego educativo infantil</h3>
 <p>Matemáticas divertidas</p>
