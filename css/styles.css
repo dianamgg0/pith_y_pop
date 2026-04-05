@@ -204,7 +204,7 @@ transform:translateY(-4px);
 
 .card img{
 width:100%;
-aspect-ratio:960/740;
+aspect-ratio:960/540;
 object-fit:cover;
 display:block;
 }
