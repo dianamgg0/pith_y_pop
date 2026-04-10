@@ -307,8 +307,9 @@ padding-top:10px;
 }
 
 .intro-article{
-max-width:720px;
+max-width:900px;
 margin:0 auto;
+padding:40px 20px;
 }
 
 .intro-article h2{
@@ -329,6 +330,12 @@ padding-left:18px;
 
 .intro-list li{
 margin-bottom:8px;
+}
+
+.intro-article ul{
+text-align:left;
+max-width:520px;
+margin:24px auto;
 }
 
 /* =========================
@@ -426,7 +433,7 @@ ARTÍCULO DESCRIPCIÓN DESKTOP
 ========================= */
 
 .intro-article{
-max-width:900px;
+max-width:1100px;
 margin:40px auto 0;
 }
 
@@ -453,6 +460,17 @@ margin:24px 0;
 .intro-list li{
 font-size:18px;
 margin-bottom:8px;
+}
+
+}
+
+@media(min-width:900px){
+
+.intro-article ul{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:16px;
+max-width:900px;
 }
 
 }
