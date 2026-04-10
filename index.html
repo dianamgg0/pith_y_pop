@@ -249,7 +249,7 @@ const isEnglish = window.location.pathname.startsWith("/en");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = "/";
+window.location.href = window.location.origin + "/en/";
 }else{
 localStorage.setItem("pithypop_lang","en");
 window.location.href = "/en/";
