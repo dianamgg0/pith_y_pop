@@ -300,6 +300,8 @@ border-color:var(--primary);
 color:var(--primary);
 }
 
+/* Introducción */
+
 .section-intro{
 padding-top:10px;
 }
@@ -312,6 +314,7 @@ margin:0 auto;
 .intro-article h2{
 font-size:28px;
 margin-bottom:16px;
+text-align:center;
 }
 
 .intro-article p{
@@ -368,6 +371,12 @@ border-radius:14px;
 height:34px;
 }
 
+.intro-article h2{
+font-size:28px;
+margin-bottom:16px;
+text-align:center;
+}
+
 }
 
 /* =========================
@@ -405,6 +414,11 @@ bottom:28px;
 
 .hero-btn img{
 height:72px;
+}
+
+.intro-article h2{
+font-size:32px;
+margin-bottom:22px;
 }
 
 /* =========================
