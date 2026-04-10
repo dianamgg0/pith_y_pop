@@ -296,6 +296,34 @@ border-color:var(--primary);
 color:var(--primary);
 }
 
+.section-intro{
+padding-top:10px;
+}
+
+.intro-article{
+max-width:720px;
+margin:0 auto;
+}
+
+.intro-article h2{
+font-size:28px;
+margin-bottom:16px;
+}
+
+.intro-article p{
+line-height:1.6;
+margin-bottom:16px;
+}
+
+.intro-list{
+margin:20px 0;
+padding-left:18px;
+}
+
+.intro-list li{
+margin-bottom:8px;
+}
+
 /* =========================
 TABLET
 ========================= */
