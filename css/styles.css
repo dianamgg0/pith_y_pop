@@ -350,11 +350,13 @@ opacity:.9;
 }
 
 /* BOTÓN DESCARGA DESKTOP */
-.download-btn{
-font-size:18px;
-padding:16px 28px;
-border-radius:14px;
-}  
+.hero-btn{
+bottom:28px;
+}
+
+.hero-btn img{
+height:72px;
+}
 
 }
   
