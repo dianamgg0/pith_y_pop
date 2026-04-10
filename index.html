@@ -245,11 +245,11 @@ window.location.href = "en/";
 <script>
 document.querySelector(".lang-switch").addEventListener("click",function(){
 
-const isEnglish = window.location.pathname.startsWith("en");
+const isEnglish = window.location.pathname.includes("en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = window.location.origin + "en/";
+window.location.href = "../";
 }else{
 localStorage.setItem("pithypop_lang","en");
 window.location.href = "en/";
