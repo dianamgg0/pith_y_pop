@@ -209,7 +209,7 @@ transform:translateY(-4px);
 .card img{
 width:100%;
 aspect-ratio:16/9;
-object-fit:cover;
+object-fit:cover    ;
 display:block;
 }
 
@@ -344,10 +344,6 @@ TABLET
 
 @media(min-width:768px){
 
-.hero-title{
-font-size:36px;
-}
-
 .cards{
 grid-template-columns:repeat(3,1fr);
 }
@@ -378,11 +374,6 @@ border-radius:14px;
 height:34px;
 }
 
-.intro-article h2{
-font-size:28px;
-margin-bottom:16px;
-text-align:center;
-}
 
 }
 
@@ -398,10 +389,6 @@ max-width:1200px;
 
 .hero-card{
 max-width:950px;
-}
-
-.hero-title{
-font-size:42px;
 }
 
 .hero-brand{
@@ -423,32 +410,26 @@ bottom:28px;
 height:72px;
 }
 
-.intro-article h2{
-font-size:32px;
-margin-bottom:22px;
-}
-
 /* =========================
 ARTÍCULO DESCRIPCIÓN DESKTOP
 ========================= */
 
 .intro-article{
 max-width:1100px;
-margin:40px auto 0;
 }
 
 .intro-article h2{
-font-size:32px;
+font-size:36px;
 margin-bottom:18px;
 }
 
 .intro-article h3{
-font-size:22px;
+font-size:26px;
 margin-top:24px;
 }
 
 .intro-article p{
-font-size:18px;
+font-size:22px;
 line-height:1.7;
 margin-bottom:18px;
 }
