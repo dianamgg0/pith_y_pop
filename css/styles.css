@@ -348,9 +348,13 @@ margin-top:10px;
 height:36px;
 opacity:.9;
 }
-.subscribe button{
-width:auto;
-}
+
+/* BOTÓN DESCARGA DESKTOP */
+.download-btn{
+font-size:18px;
+padding:16px 28px;
+border-radius:14px;
+}  
 
 }
   
