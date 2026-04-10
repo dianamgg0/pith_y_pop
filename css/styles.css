@@ -281,18 +281,19 @@ font-size:14px;
 
 .lang-switch{
 margin-left:16px;
-background:transparent;
-border:1px solid rgba(255,255,255,.25);
-color:white;
-padding:6px 10px;
-border-radius:8px;
+background:#fff;
+border:1px solid #e5e7eb;
+color:#374151;
+padding:6px 12px;
+border-radius:999px;
 cursor:pointer;
 font-weight:600;
 font-size:12px;
 }
 
 .lang-switch:hover{
-background:rgba(255,255,255,.08);
+border-color:var(--primary);
+color:var(--primary);
 }
 
 /* =========================
