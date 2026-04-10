@@ -235,7 +235,7 @@ if(saved) return;
 
 // si está en raíz y navegador inglés → ir a /en/
 if(isEnglish && window.location.pathname === "/"){
-window.location.href = "/en/";
+window.location.href = "en/";
 }
 
 })();
@@ -245,14 +245,14 @@ window.location.href = "/en/";
 <script>
 document.querySelector(".lang-switch").addEventListener("click",function(){
 
-const isEnglish = window.location.pathname.startsWith("/en");
+const isEnglish = window.location.pathname.startsWith("en");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = window.location.origin + "/en/";
+window.location.href = window.location.origin + "en/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = "/en/";
+window.location.href = "en/";
 }
 
 });
