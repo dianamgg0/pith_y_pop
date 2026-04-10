@@ -225,21 +225,34 @@ document.getElementById("mc-form").reset();
 <script>
 (function() {
 
+const btn = document.querySelector(".lang-switch");
+
 const userLang = navigator.language || navigator.userLanguage;
-const isEnglish = userLang.toLowerCase().startsWith("en");
+const isEnglishBrowser = userLang.toLowerCase().startsWith("en");
 
 const saved = localStorage.getItem("pithypop_lang");
 
-// si ya eligió idioma no redirigir
-if(saved) return;
+// si el usuario ya eligió idioma
+if(saved){
+btn.textContent = saved === "en" ? "ES" : "EN";
+return;
+}
 
-// si está en raíz y navegador inglés → ir a /en/
-if(isEnglish && window.location.pathname === "/"){
+// detectar por navegador
+if(isEnglishBrowser){
+btn.textContent = "ES";
+
+// redirigir si está en raíz
+if(!window.location.pathname.includes("en/")){
 window.location.href = "en/";
 }
 
+}else{
+btn.textContent = "EN";
+}
+
 })();
-</script>  
+</script>
   
 <!-- Botón cambio de idioma -->
 <script>
