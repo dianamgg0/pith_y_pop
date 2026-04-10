@@ -11,6 +11,10 @@
 <link rel="canonical" href="https://pithypop.com/">
 <meta name="robots" content="index, follow">
 
+<link rel="alternate" hreflang="es" href="https://pithypop.com/">
+<link rel="alternate" hreflang="en" href="https://pithypop.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://pithypop.com/">  
+
 <!-- Favicon -->
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -90,6 +94,10 @@ gtag('config', 'G-KKWWH08690');
 <a href="#articulos">Aprender</a>
 <a href="#subscribe">Suscribirse</a>
 </nav>
+
+<button class="lang-switch" aria-label="Change language">
+EN
+</button>  
 
 </div>
 </header>
@@ -212,6 +220,43 @@ document.getElementById("mc-form").reset();
 
 });
 </script>
+  
+<!-- Detección automatica de idioma -->
+<script>
+(function() {
 
+const userLang = navigator.language || navigator.userLanguage;
+const isEnglish = userLang.toLowerCase().startsWith("en");
+
+const saved = localStorage.getItem("pithypop_lang");
+
+// si ya eligió idioma no redirigir
+if(saved) return;
+
+// si está en raíz y navegador inglés → ir a /en/
+if(isEnglish && window.location.pathname === "/"){
+window.location.href = "/en/";
+}
+
+})();
+</script>  
+  
+<!-- Botón cambio de idioma -->
+<script>
+document.querySelector(".lang-switch").addEventListener("click",function(){
+
+const isEnglish = window.location.pathname.startsWith("/en");
+
+if(isEnglish){
+localStorage.setItem("pithypop_lang","es");
+window.location.href = "/";
+}else{
+localStorage.setItem("pithypop_lang","en");
+window.location.href = "/en/";
+}
+
+});
+</script>
+  
 </body>
 </html>
