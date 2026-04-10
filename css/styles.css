@@ -407,6 +407,40 @@ bottom:28px;
 height:72px;
 }
 
+/* =========================
+ARTÍCULO DESCRIPCIÓN DESKTOP
+========================= */
+
+.intro-article{
+max-width:900px;
+margin:40px auto 0;
+}
+
+.intro-article h2{
+font-size:32px;
+margin-bottom:18px;
+}
+
+.intro-article h3{
+font-size:22px;
+margin-top:24px;
+}
+
+.intro-article p{
+font-size:18px;
+line-height:1.7;
+margin-bottom:18px;
+}
+
+.intro-list{
+margin:24px 0;
+}
+
+.intro-list li{
+font-size:18px;
+margin-bottom:8px;
+}
+
 }
   
 
