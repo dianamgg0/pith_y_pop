@@ -88,11 +88,15 @@ padding:40px 0 10px;
 }
 
 .hero-title{
-text-align:center;
-font-size:28px;
-font-weight:600;
-margin-bottom:20px;
-padding:0 10px;
+position:absolute;
+width:1px;
+height:1px;
+padding:0;
+margin:-1px;
+overflow:hidden;
+clip:rect(0,0,0,0);
+white-space:nowrap;
+border:0;
 }
 
 /* CARD VIDEO */
