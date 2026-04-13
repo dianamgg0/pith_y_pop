@@ -296,6 +296,50 @@ border-color:var(--primary);
 color:var(--primary);
 }
 
+/* Introducción */
+
+.section-intro{
+margin-top:4px;
+padding-top:0;
+}
+
+.intro-article{
+max-width:900px;
+margin:0 auto;
+padding:40px 20px;
+}
+
+.intro-article h2{
+font-size:28px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.intro-article h3{
+margin-top:28px;
+margin-bottom:12px;
+}
+
+.intro-article p{
+margin-bottom:14px;
+}
+
+.intro-list{
+margin:20px 0;
+padding-left:18px;
+}
+
+.intro-list li{
+margin-bottom:8px;
+}
+
+.intro-article ul{
+text-align:left;
+max-width:520px;
+margin:24px auto;
+}
+
+
 /* =========================
 TABLET
 ========================= */
