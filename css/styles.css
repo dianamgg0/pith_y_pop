@@ -136,6 +136,38 @@ width:auto;
 display:block;
 filter: drop-shadow(0 10px 24px rgba(0,0,0,.35));
 }
+
+.hero-btn{
+  display:none;
+}
+
+/* BOTON FUERA DEL VIDEO */
+
+.cta-play{
+  display:inline-block;
+  margin:20px auto 0;
+  text-align:center;
+}
+
+.cta-play .play-wrapper{
+  animation:floatPlay 3s ease-in-out infinite;
+}
+
+.hero-cta{
+  text-align:center;
+  margin-top:16px;
+}
+
+.play-wrapper{
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+
+.play-wrapper:hover{
+  transform:translateY(-3px) scale(1.03);
+  box-shadow:
+    0 16px 40px rgba(0,0,0,.3),
+    0 0 0 4px rgba(255,255,255,.3);
+}
 /* BUTTON */
 
 .btn-primary{
