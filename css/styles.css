@@ -405,9 +405,9 @@ max-width:1200px;
   }
 
 .hero-card{
-    max-width:50%;
-    margin-left:40px;
-  }
+  max-width:100%;
+  margin:0;
+}
 
 .hero-title{
     text-align:left;
@@ -436,8 +436,8 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 1.7fr 0.7fr;
-    gap:80px;
+    grid-template-columns: 1.7fr 1fr;
+    gap:40px;
     align-items:center;
   }
 
