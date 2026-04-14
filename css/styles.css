@@ -400,11 +400,11 @@ margin:auto;
   padding:20px;
 }
 
-  .hero .container{
-    max-width:100%;
-    padding-left:60px;
-    padding-right:60px;
-  }
+ .hero .container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
 
   .hero-card{
     max-width:100%;
