@@ -156,8 +156,9 @@ filter: drop-shadow(0 10px 24px rgba(0,0,0,.35));
 }
 
 .hero-cta{
-  text-align:center;
-  margin-top:16px;
+  display:flex;
+  justify-content:center;
+  margin-top:18px;
 }
 
 .play-wrapper{
@@ -397,9 +398,15 @@ DESKTOP
 max-width:1200px;
 }
 
-.hero-card{
-    margin:0; /* elimina centrado */
+  .hero .container{
     max-width:100%;
+    padding-left:60px;
+    padding-right:60px;
+  }
+
+.hero-card{
+    max-width:100%;
+    margin-left:-40px;
   }
 
 .hero-title{
@@ -429,8 +436,8 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 1.5fr 0.5fr;
-    gap:60px;
+    grid-template-columns: 1.7fr 0.7fr;
+    gap:80px;
     align-items:center;
   }
 
@@ -445,7 +452,7 @@ height:72px;
 
   .hero-cta{
     text-align:left;
-    margin-top:18px;
+    justify-content:flex-start;
   }
 
   .play-wrapper{
