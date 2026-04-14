@@ -395,7 +395,8 @@ DESKTOP
 @media(min-width:1200px){
 
 .container{
-max-width:1200px;
+margin:auto;
+  padding:20px;
 }
 
   .hero .container{
@@ -404,17 +405,10 @@ max-width:1200px;
     padding-right:60px;
   }
 
-<<<<<<< HEAD
   .hero-card{
     max-width:100%;
     margin:0;
   }
-=======
-.hero-card{
-  max-width:100%;
-  margin:0;
-}
->>>>>>> 985a8ea88fcc233316899e1ce8c2bbc9d2089de2
 
   .hero-title{
     text-align:left;
