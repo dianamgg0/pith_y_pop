@@ -111,6 +111,8 @@ position:relative;
 width:100%;
 aspect-ratio:16/9;
 background:#000;
+border-radius:20px;
+overflow:hidden;
 }
 
 .hero-media video{
@@ -427,13 +429,13 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    gap:50px;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap:60px;
     align-items:center;
   }
 
   .hero-text{
-    text-align:left;
+    max-width:420px;
   }
 
   .hero-subtitle,
@@ -452,7 +454,11 @@ height:72px;
   }
 
   .play-wrapper img{
-    height:56px;
+    height:64px;
+  }
+
+  .hero-media{
+    border-radius:20px;
   }
 
 }
