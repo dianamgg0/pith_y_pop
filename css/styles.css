@@ -442,14 +442,8 @@ height:72px;
   }
 
   .hero-text{
-    max-width:420px;
+    max-width:500px;
   }
-
-  .hero-subtitle,
-  .hero-sub{
-    text-align:left;
-  }
-
   
   .play-wrapper{
     padding:18px 26px;
