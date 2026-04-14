@@ -356,12 +356,7 @@ TABLET
 
 .hero{
 padding:18px 0 10px;
-}
-  
-.hero-title{
-font-size:36px;
-margin: top 18px;
-}
+} 
 
 .cards{
 grid-template-columns:repeat(3,1fr);
