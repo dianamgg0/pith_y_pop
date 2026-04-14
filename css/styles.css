@@ -159,6 +159,7 @@ filter: drop-shadow(0 10px 24px rgba(0,0,0,.35));
   display:flex;
   justify-content:center;
   margin-top:18px;
+  margin-bottom: 18px;
 }
 
 .play-wrapper{
@@ -454,7 +455,7 @@ height:72px;
   }
 
   .hero-cta{
-    text-align:left;
+    
     justify-content:flex-start;
   }
 
