@@ -82,8 +82,9 @@ justify-content:center;
 align-items:center;
 padding:10px 0 6px;
 background:#FFF6CC;
-border-bottom:5px solid rgba(0,0,0,.04);
+border-bottom:3px solid rgba(0,0,0,.04);
 }
+
 .brand-logo{
 height:24px;
 width:auto;
@@ -495,10 +496,11 @@ display:block;
 }
 
 .logo{
-height:50px;
+height:60px;
 }
-
-  
+ :root{
+    --menu-text: 20px;
+  }
 
 }
   
