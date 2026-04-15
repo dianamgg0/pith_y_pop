@@ -498,6 +498,9 @@ display:block;
 height:50px;
 }
 
+ :root{
+    --menu-text: 20px;
+  }
   
 
 }
