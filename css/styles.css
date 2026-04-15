@@ -30,7 +30,10 @@ PITHYPOP DESIGN SYSTEM
   /* ===== UI GENERAL ===== */
   --menu-text: 15px;
   --footer-text: 14px;
+
+  --logo-size:48px;
 }
+
 
 /* RESET */
 
@@ -73,7 +76,7 @@ align-items:center;
 }
 
 .logo{
-height:42px;
+  height:var(--logo-size);
 }
 
 .brand-top{
@@ -489,8 +492,10 @@ width:auto;
 display:block;
 }
 
-  
-
+  :root{
+    --logo-size:56px;
+    --menu-text: 20px;
+  }
 }
   
 
