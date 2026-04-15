@@ -403,9 +403,9 @@ padding:20px;
 }
 
 .hero .container{
-    max-width:1400px;
+    max-width:1500px;
     margin:auto;
-    padding:60px;
+    padding:80px;
   }
 
   .hero-card{
@@ -436,7 +436,7 @@ height:72px;
  .hero-layout{
     display:grid;
     grid-template-columns: 2.7fr 1.5fr;
-    gap:100px;
+    gap:120px;
     align-items:center;
   }
 
