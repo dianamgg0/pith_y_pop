@@ -498,6 +498,10 @@ width:auto;
 display:block;
 }
 
+.menu{
+gap:30px;
+}
+
   :root{
     --logo-size:70px;
     --menu-text: 20px;
