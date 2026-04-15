@@ -435,8 +435,8 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 2.4fr 1fr;
-    gap:120px;
+    grid-template-columns: 3fr 1fr;
+    gap:80px;
     align-items:center;
   }
 
