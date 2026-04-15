@@ -474,18 +474,13 @@ height:72px;
     height:64px;
   }
 
-  .play-wrapper img{
-    height:64px;
-  }
+  
 
   .hero-media{
     border-radius:20px;
   }
 
-  .hero-cta{
-    justify-content:flex-start;
-  }
-
+  
   .brand-top{
 padding:20px 0 6px;
 }
