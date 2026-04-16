@@ -108,6 +108,10 @@ font-weight:500;
 font-size:var(--menu-text);
 }
 
+.menu a.active{
+  color:var(--primary);
+}
+
 /* HERO */
 
 .hero{
