@@ -31,7 +31,7 @@ PITHYPOP DESIGN SYSTEM
   --menu-text: 15px;
   --footer-text: 14px;
 
-  --logo-size:44px;
+  --logo-size:48px;
 }
 
 
@@ -77,6 +77,7 @@ align-items:center;
 
 .logo{
   height:var(--logo-size);
+  margin-left: 16px;
 }
 
 .brand-top{
@@ -500,7 +501,7 @@ display:block;
 }
 
 .menu{
-gap:40px;
+gap:60px;
 }
 
 .cards{
