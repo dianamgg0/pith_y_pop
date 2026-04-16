@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Artículos de matemáticas para niños | PithyPop</title>
+
+<meta name="description" content="Explora artículos sobre tablas de multiplicar, método pitagórico y aprendizaje visual. Matemáticas divertidas para niños con PithyPop.">
+
+<link rel="canonical" href="https://pithypop.com/articulos/">
+<meta name="robots" content="index, follow">
+
+<link rel="alternate" hreflang="es" href="https://pithypop.com/articulos/">
+<link rel="alternate" hreflang="en" href="https://pithypop.com/en/articulos/">
+<link rel="alternate" hreflang="x-default" href="https://pithypop.com/articulos/">
+
+<!-- Favicon -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+<!-- PWA -->
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#58C26D">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Artículos de matemáticas para niños | PithyPop">
+<meta property="og:description" content="Aprende tablas de multiplicar con métodos visuales e intuitivos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pithypop.com/articulos/">
+<meta property="og:image" content="https://pithypop.com/images/social.jpg">
+<meta property="og:locale" content="es_CO">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Artículos de matemáticas | PithyPop">
+<meta name="twitter:description" content="Aprende matemáticas jugando">
+<meta name="twitter:image" content="https://pithypop.com/images/social.jpg">
+
+<link rel="stylesheet" href="../css/styles.css">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKWWH08690"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-KKWWH08690');
+</script>
+
+<script>
+gtag('config', 'G-KKWWH08690', {
+  page_path: window.location.pathname,
+});
+</script>
+
+<!-- Schema: Collection -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "CollectionPage",
+"name": "Artículos de matemáticas para niños",
+"description": "Colección de artículos sobre tablas de multiplicar y aprendizaje visual.",
+"url": "https://pithypop.com/articulos/"
+}
+</script>
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="brand-top">
+<img src="../images/pithypop.svg" class="brand-logo" alt="PithyPop">
+</div>
+
+<div class="container header-inner">
+
+<a href="../">
+  <img src="../images/logo.svg" class="logo" alt="PithyPop juego educativo">
+</a>
+
+<nav class="menu">
+<a href="../">Inicio</a>
+<a href="../#articulos">Aprender</a>
+<a href="../#subscribe">Suscribirse</a>
+</nav>
+
+<button class="lang-switch">EN</button>
+
+</div>
+</header>
+
+<main>
+
+<!-- HERO ARTÍCULOS -->
+<section class="section">
+<div class="container">
+
+<h1 class="section-title">
+Artículos para aprender matemáticas jugando
+</h1>
+
+<p class="hero-sub" style="text-align:center; max-width:700px; margin:0 auto;">
+Explora estrategias, juegos y métodos visuales para aprender las tablas de multiplicar de forma intuitiva.
+</p>
+
+</div>
+</section>
+
+<!-- LISTADO -->
+<section class="section">
+<div class="container">
+
+<div class="cards">
+
+<!-- ARTÍCULO 1 -->
+<article class="card">
+<a href="aprender-tablas-multiplicar.html">
+<img src="../images/huevo.jpg" loading="lazy" alt="Aprender tablas de multiplicar jugando">
+<div class="card-body">
+<h2>Cómo aprender las tablas de multiplicar jugando</h2>
+<p>Descubre estrategias visuales para aprender más rápido.</p>
+</div>
+</a>
+</article>
+
+<!-- ARTÍCULO 2 -->
+<article class="card">
+<a href="metodo-pitagorico.html">
+<img src="../images/popit.jpg" loading="lazy" alt="Método pitagórico para multiplicar">
+<div class="card-body">
+<h2>Qué es el método pitagórico</h2>
+<p>Una forma visual e intuitiva de entender la multiplicación.</p>
+</div>
+</a>
+</article>
+
+<!-- ARTÍCULO 3 -->
+<article class="card">
+<a href="matematicas-para-ninos.html">
+<img src="../images/popit.jpg" loading="lazy" alt="Matemáticas para niños jugando">
+<div class="card-body">
+<h2>Matemáticas para niños jugando</h2>
+<p>Aprender matemáticas de forma divertida y efectiva.</p>
+</div>
+</a>
+</article>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer class="footer">
+<div class="container">
+© PithyPop
+</div>
+</footer>
+
+<script>
+document.getElementById("mc-form").addEventListener("submit", function() {
+
+setTimeout(function() {
+document.getElementById("mc-message").style.display = "block";
+document.getElementById("mc-form").reset();
+}, 800);
+
+});
+</script>
+
+<!-- Botón cambio de idioma -->
+<script>
+document.querySelector(".lang-switch").addEventListener("click",function(){
+
+const isEnglish = window.location.pathname.includes("en/");
+
+if(isEnglish){
+localStorage.setItem("pithypop_lang","es");
+window.location.href = "../";
+}else{
+localStorage.setItem("pithypop_lang","en");
+window.location.href = "en/";
+}
+
+});
+</script>
+
+
+</body>
+</html>
