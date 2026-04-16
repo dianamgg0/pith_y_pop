@@ -416,8 +416,9 @@ border-radius:14px;
 height:34px;
 }
 
+
 .menu{
-gap:20px;
+gap:16px;
 
 }
 
@@ -505,7 +506,7 @@ gap:100px;
 }
 
 .cards{
-gap:24px;
+gap:40px;
 }
 
   :root{
