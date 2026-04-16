@@ -466,13 +466,13 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 2.7fr 1.2fr;
+    grid-template-columns: 2.7fr 1.8fr;
     gap:140px;
     align-items:center;
   }
 
   .hero-text{
-    max-width:1000px;
+    max-width:700px;
   }
   
   .play-wrapper{
@@ -505,7 +505,7 @@ gap:36px;
   :root{
     --logo-size:70px;
     --menu-text: 20px;
-    --hero-title: clamp(26px, 2vw, 42px);
+    --hero-title: clamp(26px, 1.5vw, 42px);
   }
 }
   
