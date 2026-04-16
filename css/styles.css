@@ -97,7 +97,7 @@ display:block;
 
 .menu{
 display:flex;
-gap:24px;
+gap:8px;
 }
 
 .menu a{
