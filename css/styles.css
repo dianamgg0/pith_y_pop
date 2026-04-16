@@ -257,9 +257,7 @@ margin-bottom:20px;
 
 .section-link{
   text-align: center;
-  font-size:var(--card-title) ;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size:var(--card-title) ;  
 }
 
 .section-link-wrapper{
