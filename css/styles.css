@@ -434,6 +434,10 @@ margin:auto;
 padding:20px;
 }
 
+.hero{
+  padding-top:60px;
+}
+
 .hero .container{
     max-width:1600px;
     margin:auto;
@@ -470,7 +474,7 @@ height:72px;
     grid-template-columns: 2.7fr 1.8fr;
     gap:140px;
     align-items:center;
-    margin-top: 200px;
+    
   }
 
   .hero-text{
