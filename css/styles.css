@@ -90,14 +90,14 @@ border-bottom:1px solid rgba(0,0,0,.04);
 }
 
 .brand-logo{
-height:24px;
+height:22px;
 width:auto;
 display:block;
 }
 
 .menu{
 display:flex;
-gap:12px;
+gap:14px;
 }
 
 .menu a{
@@ -403,9 +403,7 @@ margin:0;
 width:auto;
 }
 
-.brand-logo{
-height:22px;
-}
+
 
 .play-wrapper{
 padding:10px 14px;
