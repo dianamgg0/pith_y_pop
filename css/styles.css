@@ -90,10 +90,12 @@ background:#FFF6CC;
 border-bottom:1px solid rgba(0,0,0,.04);
 }
 
+
 .brand-logo{
-height:22px;
-width:auto;
-display:block;
+  height:32px;
+  width:auto;
+  display:block;
+  shape-rendering:geometricPrecision;
 }
 
 .menu{
