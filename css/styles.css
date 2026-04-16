@@ -77,7 +77,7 @@ align-items:center;
 
 .logo{
   height:var(--logo-size);
-  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .brand-top{
