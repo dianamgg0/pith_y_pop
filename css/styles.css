@@ -416,7 +416,8 @@ height:34px;
 }
 
 .menu{
-gap:22px;
+gap:20px;
+margin-right: 16px;
 }
 
 }
@@ -499,7 +500,7 @@ display:block;
 }
 
 .menu{
-gap:36px;
+gap:40px;
 }
 
   :root{
