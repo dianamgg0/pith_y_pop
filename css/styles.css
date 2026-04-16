@@ -31,7 +31,7 @@ PITHYPOP DESIGN SYSTEM
   --menu-text: 15px;
   --footer-text: 14px;
 
-  --logo-size:48px;
+  --logo-size:44px;
 }
 
 
@@ -466,13 +466,13 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 2.7fr 1.5fr;
+    grid-template-columns: 2.7fr 1.2fr;
     gap:140px;
     align-items:center;
   }
 
   .hero-text{
-    max-width:900px;
+    max-width:1000px;
   }
   
   .play-wrapper{
@@ -499,7 +499,7 @@ display:block;
 }
 
 .menu{
-gap:30px;
+gap:36px;
 }
 
   :root{
