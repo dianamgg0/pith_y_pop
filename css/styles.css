@@ -262,6 +262,16 @@ margin-bottom:20px;
   margin-bottom: 20px;
 }
 
+.section-link-wrapper{
+  display:flex;
+  justify-content:center;
+  margin:20px 0;
+}
+
+.section-link:hover{
+  text-decoration:underline;
+}
+
 /* CARDS */
 
 .cards{
