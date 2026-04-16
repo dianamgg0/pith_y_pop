@@ -507,6 +507,14 @@ gap:100px;
 gap:40px;
 }
 
+.section{
+margin-top:60px;
+}
+
+.section-title{
+margin-bottom:60px;
+}
+
   :root{
     --logo-size:70px;
     --menu-text: 20px;
