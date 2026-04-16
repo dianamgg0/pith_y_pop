@@ -103,12 +103,16 @@ gap:14px;
 
 .menu a{
 text-decoration:none;
-color:var(--link-blue);
+color:var(--text);
 font-weight:500;
 font-size:var(--menu-text);
 }
 
-.menu a.active{
+
+a{
+  color: var(--link-blue);
+}
+a.active{
   color:var(--primary);
 }
 
