@@ -544,6 +544,12 @@ margin-top:30px;
 margin-bottom:60px;
 }
 
+.section-link-wrapper{
+  display:flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+
   :root{
     --logo-size:70px;
     --menu-text: 20px;
