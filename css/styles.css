@@ -503,10 +503,17 @@ display:block;
 gap:40px;
 }
 
+.cards{
+gap:24px;
+}
+
   :root{
     --logo-size:70px;
     --menu-text: 20px;
     --hero-title: clamp(26px, 1.5vw, 42px);
+    --hero-subtitle: clamp(22px, 1.6vw, 24px);
+     --card-title: clamp(20px, 1.3vw, 20px);
+  --card-text: clamp(18px, 1vw, 16px);
   }
 }
   
