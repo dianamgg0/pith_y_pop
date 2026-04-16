@@ -343,7 +343,7 @@ font-size:var(--footer-text);
 }
 
 .lang-switch{
-margin-left:16px;
+margin-left:12px;
 background:#fff;
 border:1px solid #e5e7eb;
 color:#374151;
@@ -418,7 +418,7 @@ height:34px;
 
 
 .menu{
-gap:16px;
+gap:12px;
 
 }
 
