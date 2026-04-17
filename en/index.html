@@ -96,8 +96,8 @@ gtag('config', 'G-KKWWH08690', {
 <img src="../images/logo.svg" class="logo" alt="PithyPop educational game">
 
 <nav class="menu">
-<a href="en/">Home</a>
-<a href="en/articles/">Learn</a>
+<a href="">Home</a>
+<a href="articles/">Learn</a>
 <a href="#subscribe">Subscribe</a>
 </nav>
 
@@ -248,10 +248,10 @@ const isEnglish = window.location.pathname.includes("/en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = basePath + "/";
+location.href = window.basePath + "/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = "basePath + /en/";
+location.href = window.basePath + "/en/";
 }
 
 });
