@@ -292,10 +292,10 @@ const isEnglish = window.location.pathname.includes("/en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = "/";
+window.location.href = basePath + "/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = "en/";
+window.location.href = basePath + "/en/";
 }
 
 });
