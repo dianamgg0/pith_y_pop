@@ -81,13 +81,6 @@ gtag('config', 'G-KKWWH08690', {
 }
 </script>
 
-<script>
-window.basePath =
-location.hostname.includes("github.io")
-? "/pith_y_pop"
-: "";
-</script>
-
 </head>
 
 <body>  
@@ -288,6 +281,10 @@ btn.textContent = "EN";
 <!-- Botón cambio de idioma -->
 <script>
 
+const basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: "";
 
 document.querySelector(".lang-switch").addEventListener("click",function(){
 
