@@ -215,10 +215,10 @@ const isEnglish = window.location.pathname.includes("en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = "../articulos";
+window.location.href = "../articulos/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = "articles/";
+window.location.href = "../en/articles/";
 }
 
 });
