@@ -209,16 +209,22 @@ document.getElementById("mc-form").reset();
 
 <!-- Botón cambio de idioma -->
 <script>
+
+const basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: ""; 
+
 document.querySelector(".lang-switch").addEventListener("click",function(){
 
 const isEnglish = window.location.pathname.includes("en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = "../articulos/";
+window.location.href = basePath +"/articulos/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = "../en/articles/";
+window.location.href = basePath +"/en/articles/";
 }
 
 });

@@ -81,6 +81,13 @@ gtag('config', 'G-KKWWH08690', {
 }
 </script>
 
+<script>
+window.basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: "";
+</script>
+
 </head>
 
 <body>  
@@ -97,7 +104,7 @@ gtag('config', 'G-KKWWH08690', {
 
 <nav class="menu">
 <a href="/">Inicio</a>
-<a href="articulos/">Aprender</a>
+<a href="/articulos/">Aprender</a>
 <a href="#subscribe">Suscribirse</a>
 </nav>
 
@@ -281,10 +288,6 @@ btn.textContent = "EN";
 <!-- Botón cambio de idioma -->
 <script>
 
-const basePath =
-location.hostname.includes("github.io")
-? "/pith_y_pop"
-: "";
 
 document.querySelector(".lang-switch").addEventListener("click",function(){
 
@@ -292,10 +295,10 @@ const isEnglish = window.location.pathname.includes("/en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = basePath + "/";
+location.href = window.basePath + "/";
 }else{
 localStorage.setItem("pithypop_lang","en");
-window.location.href = basePath + "/en/";
+location.href = window.basePath + "/en/";
 }
 
 });
