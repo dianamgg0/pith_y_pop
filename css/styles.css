@@ -503,6 +503,10 @@ border-radius:22px;
 display:block;
 }
 
+.article-wrap{
+max-width:1100px;
+}
+
 /* =========================
 TABLET
 ========================= */
@@ -551,8 +555,6 @@ gap:12px;
     height:28px;
   }
 
- @media(max-width:767px){
-
 .article-content h2{
 font-size:28px;
 margin-top:34px;
@@ -571,8 +573,10 @@ border-radius:18px;
 margin-bottom:24px;
 }
 
-} 
-
+.article-wrap{
+padding-left:14px;
+padding-right:14px;
+}
 
 }
 
@@ -682,10 +686,6 @@ margin-bottom:60px;
 
 .article-content{
 max-width:820px;
-}
-
-.article-cover{
-aspect-ratio:16/8.2;
 }
 
 
