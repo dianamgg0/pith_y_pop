@@ -401,6 +401,11 @@ transform:translateY(-1px);
   text-align:center;
 }
 
+.subrayado{
+  border-bottom: 3px solid #58C26D;
+  padding-bottom: 2px;
+}
+
 
 /* =========================
 TABLET
