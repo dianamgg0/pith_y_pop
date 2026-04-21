@@ -407,6 +407,7 @@ transform:translateY(-1px);
   font-family:monospace;
   font-size:1.4rem;
   font-weight:700;
+  margin-bottom: 20px;
 }
 
 .fila{
@@ -497,7 +498,7 @@ box-shadow:0 20px 40px rgba(0,0,0,.18);
 
 .article-phone img{
 width:100%;
-aspect-ratio:9/19.5;
+aspect-ratio:16/9;
 object-fit:cover;
 border-radius:22px;
 display:block;
