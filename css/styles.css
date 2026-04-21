@@ -78,7 +78,7 @@ align-items:center;
 
 .logo{
   height:var(--logo-size);
-  margin-right: 8 px;
+  margin-right: 8px;
 }
 
 .brand-top{
@@ -407,7 +407,7 @@ transform:translateY(-1px);
   font-family:monospace;
   font-size:1.4rem;
   font-weight:700;
-  margin-bottom: 20p;
+  margin-bottom: 20px;
 }
 
 .fila{
@@ -478,12 +478,14 @@ text-decoration:underline;
 }
 
 .article-cover{
-width:100%;
 display:block;
-border-radius:22px;
-margin:0 auto 34px;
+width:100%;
+height:auto;
+max-width:100%;
 aspect-ratio:16/9;
 object-fit:cover;
+border-radius:22px;
+margin:0 auto 34px;
 box-shadow:var(--shadow);
 }
 
@@ -577,6 +579,14 @@ margin-bottom:24px;
 .article-wrap{
 padding-left:14px;
 padding-right:14px;
+}
+
+.container{
+padding:14px;
+}
+
+.article-wrap{
+padding:0;
 }
 
 }
