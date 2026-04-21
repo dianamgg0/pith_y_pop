@@ -125,12 +125,16 @@ padding:40px 0 10px;
 }
 
 .hero-title{
-text-align:justify;
 font-size:var(--hero-title);
-font-weight:600;
-margin-bottom:20px;
-margin-top:20px;
-padding:10px 10px;
+font-weight:700;
+line-height:1.22;
+color:#111827;
+text-wrap:balance;
+}
+
+.hero-title .accent{
+color:var(--primary);
+font-weight:800;
 }
 
 .hero-title::after{
@@ -650,7 +654,7 @@ height:72px;
 
  .hero-layout{
     display:grid;
-    grid-template-columns: 2.7fr 1.8fr;
+    grid-template-columns: 2.7fr 2.2fr;
     gap:140px;
     align-items:center;
     
