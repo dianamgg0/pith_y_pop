@@ -130,7 +130,17 @@ font-size:var(--hero-title);
 font-weight:600;
 margin-bottom:20px;
 margin-top:20px;
-padding:20 10px;
+padding:20px 10px;
+}
+
+.hero-title::after{
+content:"";
+display:block;
+width:54px;
+height:4px;
+background:var(--primary);
+border-radius:99px;
+margin-top:10px;
 }
 
 /* CARD VIDEO */
