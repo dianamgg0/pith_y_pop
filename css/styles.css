@@ -126,16 +126,16 @@ padding:40px 0 10px;
 
 .hero-title{
 font-size:var(--hero-title);
-font-weight:700;
-line-height:1.22;
-color:#111827;
+font-weight:600;
+line-height:1.16;
+color:#1f2937;
 text-wrap:balance;
 margin-top: 20px;
 
 }
 
 .hero-title .accent{
-color:var(--primary);
+color:#58C26D;
 font-weight:800;
 }
 
