@@ -670,6 +670,12 @@ height:72px;
   .hero-text{
     max-width:700px;
   }
+
+  .hero-title{
+
+    font-weight:500;
+
+  }
   
   .play-wrapper{
     padding:18px 26px;
