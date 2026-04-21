@@ -139,6 +139,11 @@ color:#58C26D;
 font-weight:800;
 }
 
+.accent{
+color:var(--primary);
+font-weight:700;
+}
+
 .hero-title::after{
 content:"";
 display:block;
