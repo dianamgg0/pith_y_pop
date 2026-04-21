@@ -134,11 +134,6 @@ margin-top: 20px;
 
 }
 
-h1.hero-title span.accent{
-color:#58C26D;
-font-weight:800;
-}
-
 .accent{
 color:var(--primary);
 font-weight:700;
