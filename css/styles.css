@@ -580,14 +580,14 @@ gap:12px;
   }
 
 .article-content h2{
-font-size:24px;
+font-size:20px;
 margin-top:34px;
 margin-bottom:12px;
 }
 
 .article-content p,
 .article-content li{
-font-size:17px;
+font-size:16px;
 line-height:1.72;
 }
 
@@ -742,6 +742,10 @@ margin-bottom:16px;
 .article-content li{
 font-size:22px;
 line-height:1.72;
+}
+
+.article-cover{
+margin-bottom:30px;
 }
 
   :root{
