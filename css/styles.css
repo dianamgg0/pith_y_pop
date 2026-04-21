@@ -130,7 +130,7 @@ font-size:var(--hero-title);
 font-weight:600;
 margin-bottom:20px;
 margin-top:20px;
-padding:20px 10px;
+padding:10px 10px;
 }
 
 .hero-title::after{
@@ -462,7 +462,7 @@ margin-top:10px;
 
 .article-content p,
 .article-content li{
-font-size:clamp(17px,3vw,40px);
+font-size:clamp(17px,2vw,30px);
 line-height:1.8;
 color:#374151;
 margin-bottom:18px;
@@ -709,11 +709,23 @@ margin-bottom:60px;
 max-width:820px;
 }
 
+
 .article-content{
 max-width:900px;
 margin:auto;
 }
 
+.article-content h2{
+font-size:34px;
+margin-top:34px;
+margin-bottom:12px;
+}
+
+.article-content p,
+.article-content li{
+font-size:22px;
+line-height:1.72;
+}
 
   :root{
     --logo-size:70px;
