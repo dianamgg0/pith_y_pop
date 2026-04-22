@@ -13,7 +13,7 @@ PITHYPOP DESIGN SYSTEM
 --link-blue:#3B82F6;
 
 /* ===== HERO ===== */
-  --hero-title: clamp(28px, 2.5vw, 42px);
+  --hero-title: clamp(30px, 2.5vw, 42px);
   --hero-subtitle: clamp(18px, 1.6vw, 24px);
   --hero-text: clamp(14px, 1.2vw, 18px);
 
