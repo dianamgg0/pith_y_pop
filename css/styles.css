@@ -13,7 +13,7 @@ PITHYPOP DESIGN SYSTEM
 --link-blue:#3B82F6;
 
 /* ===== HERO ===== */
-  --hero-title: clamp(30px, 2.5vw, 42px);
+  --hero-title: clamp(26px, 2.5vw, 42px);
   --hero-subtitle: clamp(18px, 1.6vw, 24px);
   --hero-text: clamp(14px, 1.2vw, 18px);
 
@@ -22,7 +22,7 @@ PITHYPOP DESIGN SYSTEM
   --card-text: clamp(14px, 1vw, 16px);
 
   /* ===== SECTIONS ===== */
-  --section-title: clamp(26px, 2vw, 30px);
+  --section-title: clamp(24px, 2vw, 30px);
 
   /* ===== FORM ===== */
   --form-title: clamp(20px, 1.8vw, 26px);
