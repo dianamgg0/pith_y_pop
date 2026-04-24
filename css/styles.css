@@ -102,6 +102,9 @@ display:flex;
 gap:14px;
 }
 
+.menu{
+  display:none;
+}
 
 .menu a{
 text-decoration:none;
