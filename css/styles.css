@@ -131,8 +131,7 @@ font-size:var(--menu-text);
   cursor:pointer;
   padding:0;
   position:absolute;
-  left:0;
-}
+  }
 
 .menu-toggle span{
   width:22px;
