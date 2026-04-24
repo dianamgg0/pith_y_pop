@@ -121,7 +121,7 @@ font-size:var(--menu-text);
   background:transparent;
   display:flex;
   flex-direction:column;
-  justify-content:right;
+  justify-content:left;
   gap:5px;
   cursor:pointer;
   padding:0;
