@@ -131,7 +131,8 @@ font-size:var(--menu-text);
   cursor:pointer;
   padding:0;
   position:absolute;
-  }
+  left:20px;
+}
 
 .menu-toggle span{
   width:22px;
@@ -651,9 +652,6 @@ gap:12px;
 
 }
 
-.menu-toggle{
-  margin-left: 60px;
-}
 
  .brand-logo{
     height:28px;
@@ -694,7 +692,7 @@ padding:20px;
 }
 
 .menu-toggle{
-  margin-left: 800px;
+  margin-left: 500px;
 }
 
 .hero{
