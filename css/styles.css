@@ -72,9 +72,8 @@ z-index:10;
 
 .header-inner{
 display:flex;
+justify-content:space-between;
 align-items:center;
-justify-content:flex-start; /* todo a la izquierda */
-gap:14px; /* separación entre rana y hamburguesa */
 }
 
 .logo{
@@ -84,7 +83,7 @@ gap:14px; /* separación entre rana y hamburguesa */
 
 .brand-top{
 display:flex;
-justify-content:center;
+justify-content:space-between;
 align-items:center;
 padding:10px 0 6px;
 background:#FFF6CC;
@@ -103,9 +102,6 @@ display:flex;
 gap:14px;
 }
 
-.menu{
-  display:none;
-}
 
 .menu a{
 text-decoration:none;
@@ -416,7 +412,7 @@ font-size:var(--footer-text);
 }
 
 .lang-switch{
-margin-left:auto;
+margin-left:6px;
 background:#fff;
 border:1px solid #e5e7eb;
 color:#374151;
