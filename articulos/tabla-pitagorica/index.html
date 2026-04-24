@@ -148,7 +148,7 @@ La tabla pitagórica, también conocida como tabla de Pitágoras, organiza los n
 Por ejemplo al moverse por la fila del 4 puede identificarse:
 </p>
 
-<div class="serie">
+<div class="serie animar-serie">
   <div class="fila">4 × 6 = 24</div>
 
   <div class="fila suma"><span>+4</span></div>
@@ -158,8 +158,7 @@ Por ejemplo al moverse por la fila del 4 puede identificarse:
   <div class="fila resultado">4 × 8 = 32</div>
 
   <div class="fila suma"><span>+4</span></div>
-  <div class="fila resultado">4 × 9 = 36</div>    
-
+  <div class="fila resultado">4 × 9 = 36</div>
 </div>
 
 <p>
@@ -353,6 +352,27 @@ location.href = window.basePath + "/articulos/tabla-pitagorica/";
 }else{
 location.href = window.basePath + "/en/articles/pythagorean-table/";
 }
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+
+  const serie = document.querySelector(".animar-serie");
+
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        serie.classList.add("activa");
+        observer.unobserve(serie); // solo una vez
+      }
+    });
+  },{
+    threshold:0.4
+  });
+
+  observer.observe(serie);
 
 });
 </script>
