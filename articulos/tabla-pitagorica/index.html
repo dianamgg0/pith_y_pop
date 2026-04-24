@@ -360,16 +360,43 @@ location.href = window.basePath + "/en/articles/pythagorean-table/";
 document.addEventListener("DOMContentLoaded",()=>{
 
   const serie = document.querySelector(".animar-serie");
+  let intervalo = null;
+
+  function iniciarAnimacion(){
+
+    reproducir();
+
+    intervalo = setInterval(()=>{
+      reproducir();
+    }, 5600); /* duración total del ciclo */
+  }
+
+  function reproducir(){
+    serie.classList.remove("activa");
+    void serie.offsetWidth; /* reinicia animación */
+    serie.classList.add("activa");
+  }
+
+  function detenerAnimacion(){
+    clearInterval(intervalo);
+    intervalo = null;
+    serie.classList.remove("activa");
+  }
 
   const observer = new IntersectionObserver((entries)=>{
     entries.forEach(entry=>{
+
       if(entry.isIntersecting){
-        serie.classList.add("activa");
-        observer.unobserve(serie); // solo una vez
+        if(!intervalo){
+          iniciarAnimacion();
+        }
+      }else{
+        detenerAnimacion();
       }
+
     });
   },{
-    threshold:0.4
+    threshold:0.45
   });
 
   observer.observe(serie);
