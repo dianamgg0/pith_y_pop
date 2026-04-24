@@ -83,7 +83,7 @@ align-items:center;
 
 .brand-top{
 display:flex;
-justify-content:space-between;
+justify-content:center;
 align-items:center;
 padding:10px 0 6px;
 background:#FFF6CC;
