@@ -72,8 +72,9 @@ z-index:10;
 
 .header-inner{
 display:flex;
-justify-content:space-between;
 align-items:center;
+justify-content:flex-start; /* todo a la izquierda */
+gap:10px; /* separación entre rana y hamburguesa */
 }
 
 .logo{
@@ -415,7 +416,7 @@ font-size:var(--footer-text);
 }
 
 .lang-switch{
-margin-left:6px;
+margin-left:auto;
 background:#fff;
 border:1px solid #e5e7eb;
 color:#374151;
