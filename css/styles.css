@@ -652,6 +652,10 @@ gap:12px;
 
 }
 
+.menu-toggle{
+  margin-left: 20px;
+}
+
  .brand-logo{
     height:28px;
   }
@@ -688,6 +692,10 @@ DESKTOP
 max-width:1200px;
 margin:auto;
 padding:20px;
+}
+
+.menu-toggle{
+  margin-left: 100px;
 }
 
 .hero{
