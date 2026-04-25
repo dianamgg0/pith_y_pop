@@ -87,25 +87,38 @@ gtag('config', 'G-KKWWH08690', {
   
 <header class="header">
 
-<div class="brand-top">
-<img src="../images/pithypop.svg" class="brand-logo" alt="PithyPop">
-</div>
+  <div class="top-strip"></div>
 
-<div class="container header-inner">
+  <div class="header-bar">
 
-<img src="../images/logo.svg" class="logo" alt="PithyPop educational game">
+    <div class="header-left">
+      <img src="images/logo.svg" class="logo" alt="PithyPop">
 
-<nav class="menu">
-<a href="../en/">Home</a>
-<a href="../en/blog/">Recursos</a>
-<a href="#subscribe">Subscribe</a>
-</nav>
+      <img src="images/pithypop.svg" class="brand-logo" alt="PithyPop">
+    </div>
 
-<button class="lang-switch" aria-label="Change language">
-ES
-</button>  
+    <div class="header-actions">
 
-</div>
+      <button class="lang-switch">EN</button>
+
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </div>
+
+    <!-- menú desplegable -->
+  <nav class="mobile-menu">
+    <a href="../en/">Home</a>
+    <a href="../en/blog/">Resources</a>
+    <a href="#subscribe">Subscribe</a>
+    <a href="../en/">App</a>
+  </nav>
+
 </header>
 
 
@@ -254,6 +267,29 @@ localStorage.setItem("pithypop_lang","en");
 window.location.href = basePath + "/en/";
 }
 
+});
+</script>
+
+<!-- Menú hamburguesa -->
+<script>
+const btn = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.mobile-menu');
+const links = document.querySelectorAll('.mobile-menu a');
+
+btn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+  btn.classList.toggle('active');
+
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
+});
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('open');
+    btn.classList.remove('active');
+    btn.setAttribute('aria-expanded', 'false');
+  });
 });
 </script>
 
