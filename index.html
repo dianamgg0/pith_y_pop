@@ -111,6 +111,14 @@ gtag('config', 'G-KKWWH08690', {
 
   </div>
 
+    <!-- menú desplegable -->
+  <nav class="mobile-menu">
+    <a href="/">Inicio</a>
+    <a href="blog/">Recursos</a>
+    <a href="#subscribe">Suscribirse</a>
+    <a href="app/">App</a>
+  </nav>
+
 </header>
 
 
@@ -309,6 +317,35 @@ window.location.href = basePath + "/en/";
 
 });
 </script>
-  
+
+<!-- Botón menú desplegable -->
+<script>
+const btn = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.mobile-menu');
+
+btn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
+});
+</script>
+
+<!-- Cierre menú -->
+<script>
+const btn = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.mobile-menu');
+const links = document.querySelectorAll('.mobile-menu a');
+
+btn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+});
+
+links.forEach(link=>{
+  link.addEventListener('click', ()=>{
+    menu.classList.remove('open');
+  });
+});
+</script>
 </body>
 </html>
