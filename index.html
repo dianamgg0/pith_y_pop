@@ -113,7 +113,7 @@ gtag('config', 'G-KKWWH08690', {
 
     <!-- menú desplegable -->
   <nav class="mobile-menu">
-    <a href="">Inicio</a>
+    <a href="/">Inicio</a>
     <a href="blog/">Recursos</a>
     <a href="#subscribe">Suscribirse</a>
     <a href="app/">App</a>
@@ -172,7 +172,7 @@ gtag('config', 'G-KKWWH08690', {
 <div class="cards">
 
 <article class="card">
-<a href="blog/tabla-pitagorica/index.html">
+<a href="articulos/tabla-pitagorica/index.html">
 <img src="images/tabla-pitagorica.jpg" loading="lazy"  alt="Aprender tablas de multiplicar jugando">
 <div class="card-body">
 <h2>Tabla pitagórica para niños</h2>
@@ -200,7 +200,7 @@ gtag('config', 'G-KKWWH08690', {
 </div>
 
 <div class="section-link-wrapper">
-  <a href="blog/" class="section-link">Explora más</a>
+  <a href="articulos/" class="section-link">Explora más</a>
 </div>
 
 </div>
@@ -318,20 +318,7 @@ window.location.href = basePath + "/en/";
 });
 </script>
 
-<!-- Botón menú desplegable -->
-<script>
-const btn = document.querySelector('.menu-toggle');
-const menu = document.querySelector('.mobile-menu');
-
-btn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-
-  const expanded = btn.getAttribute('aria-expanded') === 'true';
-  btn.setAttribute('aria-expanded', !expanded);
-});
-</script>
-
-<!-- Cierre menú -->
+<!-- Menú hamburguesa -->
 <script>
 const btn = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.mobile-menu');
@@ -339,13 +326,20 @@ const links = document.querySelectorAll('.mobile-menu a');
 
 btn.addEventListener('click', () => {
   menu.classList.toggle('open');
+  btn.classList.toggle('active');
+
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
 });
 
-links.forEach(link=>{
-  link.addEventListener('click', ()=>{
+links.forEach(link => {
+  link.addEventListener('click', () => {
     menu.classList.remove('open');
+    btn.classList.remove('active');
+    btn.setAttribute('aria-expanded', 'false');
   });
 });
 </script>
+
 </body>
 </html>
