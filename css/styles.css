@@ -71,7 +71,7 @@ padding:20px;
 /* franja superior */
 .top-strip{
   height:8px;
-  background:#f2f2f1;
+  background:#FFF6CC;
 }
 
 /* barra principal */
@@ -82,7 +82,6 @@ padding:20px;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  background:#FFF6CC;
 }
 
 /* grupo izquierdo */
