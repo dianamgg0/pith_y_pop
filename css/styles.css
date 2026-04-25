@@ -177,7 +177,7 @@ padding:20px;
 
 /* animación a X */
 .menu-toggle.active span:nth-child(1){
-  transform:translateY(12px) rotate(45deg);
+  transform:translateY(11px) rotate(45deg);
 }
 
 .menu-toggle.active span:nth-child(2){
@@ -185,7 +185,7 @@ padding:20px;
 }
 
 .menu-toggle.active span:nth-child(3){
-  transform:translateY(-12px) rotate(-45deg);
+  transform:translateY(-11px) rotate(-45deg);
 }
 
 /* ocultar menú viejo */
