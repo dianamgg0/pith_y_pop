@@ -135,7 +135,7 @@ Descubre una forma moderna de practicar multiplicación mediante patrones visual
 <img
 src="../../images/popit-pitagorico.jpg"
 class="article-cover"
-alt="Aprender tablas de multiplicar jugando con Popit"
+alt="Aprender tablas de multiplicar jugando con Popit Pitagórico"
 loading="lazy"
 width="1200"
 height="675">
@@ -288,11 +288,11 @@ target="hidden_iframe">
 <div class="cards">
 
 <article class="card">
-<a href="../aprender-multiplicacion-jugando/">
-<img src="../../images/huevo.jpg" loading="lazy" alt="">
+<a href="../tabla-pitagorica/">
+<img src="../../images/tabla-pitagorica-articulo.jpg" loading="lazy" alt="">
 <div class="card-body">
-<h3>Aprender multiplicación jugando</h3>
-<p>Estrategias divertidas para niños.</p>
+<h3>Tabla pitagórica para niños</h3>
+<p>Aprende las tablas de multiplicar sin estrés.</p>
 </div>
 </a>
 </article>
