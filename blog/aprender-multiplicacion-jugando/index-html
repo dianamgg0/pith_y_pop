@@ -4,44 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Tabla pitagórica para niños | Aprende tablas sin estrés | PithyPop</title>
+<title>Aprender tablas de multiplicar jugando | Memoria y patrones visuales | PithyPop</title>
 
-<meta name="description" content="Descubre cómo la tabla pitagórica ayuda a los niños a aprender las tablas de multiplicar sin memorizar con estrés. Método visual, divertido e intuitivo.">
+<meta name="description" content="Descubre cómo aprender tablas de multiplicar jugando con patrones visuales intuitivos, memoria activa y razonamiento lógico en los niveles Popit de PithyPop.">
 
-<link rel="canonical" href="https://pithypop.com/blog/tabla-pitagorica/">
+<link rel="canonical" href="https://pithypop.com/blog/aprender-multiplicacion-jugando/">
 <meta name="robots" content="index, follow">
 
-<link rel="alternate" hreflang="es" href="https://pithypop.com/blog/tabla-pitagorica/">
-<link rel="alternate" hreflang="en" href="https://pithypop.com/en/articles/pythagorean-table/">
-<link rel="alternate" hreflang="x-default" href="https://pithypop.com/blog/tabla-pitagorica/">
+<link rel="alternate" hreflang="es" href="https://pithypop.com/blog/aprender-multiplicacion-jugando/">
+<link rel="alternate" hreflang="en" href="https://pithypop.com/en/blog/learn-multiplication-through-play/">
+<link rel="alternate" hreflang="x-default" href="https://pithypop.com/blog/aprender-multiplicacion-jugando/">
 
 <!-- Favicon -->
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-
-<!-- Apple -->
 <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
 
 <!-- PWA -->
 <link rel="manifest" href="../../site.webmanifest">
 <meta name="theme-color" content="#58C26D">
 
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="mobile-web-app-capable" content="yes">
-
 <!-- Open Graph -->
-<meta property="og:title" content="Tabla pitagórica para niños | PithyPop">
-<meta property="og:description" content="Aprende tablas de multiplicar con un método visual e intuitivo.">
+<meta property="og:title" content="Aprender tablas de multiplicar jugando | PithyPop">
+<meta property="og:description" content="Estimula memoria, lógica y reconocimiento de patrones mientras juegas.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://pithypop.com/blog/tabla-pitagorica/">
+<meta property="og:url" content="https://pithypop.com/blog/aprender-multiplicacion-jugando/">
 <meta property="og:image" content="https://pithypop.com/images/social.jpg">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PithyPop - Aprende tablas jugando">
-<meta name="twitter:description" content="Matemáticas divertidas para niños">
+<meta name="twitter:title" content="Aprender multiplicación jugando | PithyPop">
+<meta name="twitter:description" content="Matemáticas divertidas con memoria y lógica">
 <meta name="twitter:image" content="https://pithypop.com/images/social.jpg">
 
 <link rel="stylesheet" href="../../css/styles.css">
@@ -73,11 +67,11 @@ location.hostname.includes("github.io")
 {
 "@context":"https://schema.org",
 "@type":"Article",
-"headline":"Tabla pitagórica para niños",
-"description":"Aprender tablas de multiplicar sin estrés con apoyo visual.",
+"headline":"Aprender tablas de multiplicar jugando",
+"description":"Método visual basado en patrones intuitivos, memoria y razonamiento lógico.",
 "author":{"@type":"Organization","name":"PithyPop"},
 "publisher":{"@type":"Organization","name":"PithyPop"},
-"mainEntityOfPage":"https://pithypop.com/blog/tabla-pitagorica/"
+"mainEntityOfPage":"https://pithypop.com/blog/aprender-multiplicacion-jugando/"
 }
 </script>
 
@@ -87,37 +81,34 @@ location.hostname.includes("github.io")
 
 <header class="header">
 
-  <div class="top-strip"></div>
+<div class="top-strip"></div>
 
-  <div class="header-bar">
+<div class="header-bar">
 
-    <div class="header-left">
-      <img src="../../images/logo.svg" class="logo" alt="PithyPop">
+<div class="header-left">
+<img src="../../images/logo.svg" class="logo" alt="PithyPop">
+<img src="../../images/pithypop.svg" class="brand-logo" alt="PithyPop">
+</div>
 
-      <img src="../../images/pithypop.svg" class="brand-logo" alt="PithyPop">
-    </div>
+<div class="header-actions">
 
-    <div class="header-actions">
+<button class="lang-switch">EN</button>
 
-      <button class="lang-switch">EN</button>
+<button class="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
 
-      <button class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+</div>
+</div>
 
-    </div>
-
-  </div>
-
-    <!-- menú desplegable -->
-  <nav class="mobile-menu">
-    <a href="../../">Inicio</a>
-    <a href="../../blog/">Recursos</a>
-    <a href="#subscribe">Suscribirse</a>
-    <a href="../../">App</a>
-  </nav>
+<nav class="mobile-menu">
+<a href="../../">Inicio</a>
+<a href="../../blog/">Recursos</a>
+<a href="#subscribe">Suscribirse</a>
+<a href="../../">App</a>
+</nav>
 
 </header>
 
@@ -125,14 +116,14 @@ location.hostname.includes("github.io")
 
 <section class="section">
 <div class="container">
+
 <h1 class="section-title">
-Tabla pitagórica para niños<br>
-aprende las tablas sin estrés
+Aprender tablas de multiplicar jugando<br>
+memoria, lógica y diversión
 </h1>
 
-
 <p class="hero-sub" style="text-align:center;max-width:760px;margin:0 auto;">
-Una herramienta visual que ayuda a niños y familias a comprender la multiplicación de forma natural, sin presión y con más confianza.
+Descubre una forma moderna de practicar multiplicación mediante patrones visuales intuitivos, secuencias numéricas y desafíos interactivos.
 </p>
 
 </div>
@@ -142,100 +133,96 @@ Una herramienta visual que ayuda a niños y familias a comprender la multiplicac
 <div class="container article-wrap">
 
 <img
-src="../../images/tabla-pitagorica-articulo.jpg"
+src="../../images/huevo.jpg"
 class="article-cover"
-alt="Tabla pitagórica para aprender multiplicación"
+alt="Aprender tablas de multiplicar jugando con Popit"
 loading="lazy"
 width="1200"
 height="675">
 
 <article class="article-content">
 
-<h2>¿Qué es la tabla pitagórica?</h2>
+<h2>Una nueva forma de aprender multiplicación</h2>
 
 <p>
-La tabla pitagórica, también conocida como tabla de Pitágoras, organiza los números en filas y columnas para mostrar resultados de multiplicación en forma seriada. Al cruzar dos números, aparece el resultado y al moverse al siguiente resultado, con el dedo, de forma vertical u horizontal, puede identificarse la serie.
+Aprender tablas de multiplicar no tiene que basarse únicamente en repetición o memorización mecánica. En PithyPop, cada nivel del Popit convierte las operaciones en una experiencia visual e interactiva donde los resultados aparecen organizados en secuencias numéricas fáciles de reconocer.
 </p>
 
 <p>
-Por ejemplo al moverse por la fila del 4 puede identificarse:
+Esto permite que niños y niñas desarrollen memoria activa mientras entienden cómo se comportan los números.
 </p>
 
-<div class="serie animar-serie">
-  <div class="fila">4 × 6 = 24</div>
+<h2>Patrones visuales intuitivos que fortalecen el aprendizaje</h2>
 
-  <div class="fila suma"><span>+4</span></div>
-  <div class="fila resultado">4 × 7 = 28</div>
+<p>
+Las burbujas del Popit esconden resultados multiplicativos distribuidos en arreglos seriados. A medida que el jugador avanza, comienza a identificar relaciones visuales de forma natural:
+</p>
 
-  <div class="fila suma"><span>+4</span></div>
-  <div class="fila resultado">4 × 8 = 32</div>
+<ul>
+<li>Series ascendentes con ritmo constante</li>
+<li>Saltos numéricos repetitivos</li>
+<li>Resultados dobles y mitades</li>
+<li>Simetrías entre operaciones</li>
+<li>Ubicación visual de respuestas frecuentes</li>
+</ul>
 
-  <div class="fila suma"><span>+4</span></div>
-  <div class="fila resultado">4 × 9 = 36</div>
+<p>
+Este reconocimiento de patrones estimula la memoria de largo plazo y mejora la velocidad de respuesta.
+</p>
+
+<h2>Memoria y razonamiento lógico al mismo tiempo</h2>
+
+<p>
+Cada nivel desafía al jugador a recordar respuestas previas, anticipar secuencias y deducir resultados faltantes. En lugar de repetir sin comprender, el niño razona.
+</p>
+
+<p>
+Por ejemplo, si reconoce que 4 × 5 = 20, puede inferir rápidamente:
+</p>
+
+<div class="serie">
+<div class="fila">3 × 6 = 18</div>
+<div class="fila suma"><span>+3</span></div>
+<div class="fila resultado">3 × 7 = 21</div>
+<div class="fila suma"><span>+3</span></div>
+<div class="fila resultado">3 × 8 = 24</div>
 </div>
 
 <p>
-Esto convierte la multiplicación en algo visible, lógico y fácil de explorar.
+Así se fortalece tanto la memoria matemática como el pensamiento secuencial.
 </p>
 
-<h2>Por qué ayuda a los niños a aprender sin estrés</h2>
+<h2>Cómo ayuda Pit en cada reto</h2>
 
 <p>
-Muchos niños sienten ansiedad cuando creen que deben memorizar todas las tablas rápidamente. La tabla pitagórica reduce esa presión porque primero permite comprender relaciones entre números.
-</p>
-
-<ul>
-<li>Disminuye miedo al error</li>
-<li>Da seguridad al verificar respuestas</li>
-<li>Transforma memoria en comprensión</li>
-<li>Permite aprender a su propio ritmo</li>
-<li>Hace la práctica más amable</li>
-</ul>
-
-<h2>Patrones mágicos que los niños descubren</h2>
-
-<p>
-La tabla pitagórica está llena de patrones que facilitan el aprendizaje:
+Pit acompaña a los jugadores durante la aventura y brinda apoyo cuando una respuesta no aparece de inmediato. Esto reduce frustración y mantiene la motivación alta.
 </p>
 
 <ul>
-<li>La diagonal muestra cuadrados perfectos</li>
-<li>3 × 4 es igual a 4 × 3</li>
-<li>Las tablas dobles se repiten</li>
-<li>Las filas crecen con ritmo constante</li>
-<li>Y lo más importante el niño se hace consciente de que la multiplicación es una suma seriada</li>
+<li>Refuerza confianza</li>
+<li>Reduce ansiedad ante el error</li>
+<li>Mantiene el ritmo del juego</li>
+<li>Convierte cada fallo en oportunidad de aprendizaje</li>
 </ul>
 
-<p>
-Cuando un niño descubre patrones, deja de memorizar por obligación y empieza a entender.
-</p>
-
-<h2>Cómo usarla en casa</h2>
-
-<ol>
-<li>Empieza con tablas pequeñas.</li>
-<li>Busca resultados en filas y columnas.</li>
-<li>Haz preguntas rápidas como juego.</li>
-<li>Encuentra patrones juntos.</li>
-<li>Celebra cada avance.</li>
-</ol>
-
-<p>Descarga la versión imprimible, plástificala y úsala diariamente como herramienta de apoyo para practicar operaciones 👇 </p>
-<p>
-<p>
-<a href="../../tabla-pitagorica.pdf" class="btn-primary">
-Descargar Tabla Pitagórica PDF
-</a>
-</p>
-
-<h2>Cómo lo hacemos en PithyPop</h2>
+<h2>Por qué este método funciona</h2>
 
 <p>
-En PithyPop combinamos aprendizaje visual, recompensas y aventura. Pit acompaña a los niños en retos donde practicar matemáticas se siente como jugar.
+Cuando un niño observa, compara, deduce y recuerda patrones, el aprendizaje se vuelve más profundo que la simple repetición. El cerebro conecta imágenes, posiciones, ritmos y resultados numéricos.
 </p>
 
 <p>
-Los diferentes niveles muestran ejercicios que estimulan la respuesta intuitiva, y llevando al reconocimiento de patrones.
+Eso hace que las tablas de multiplicar se comprendan mejor y se recuerden por más tiempo.
+</p>
+
+<h2>Aprender jugando con PithyPop</h2>
+
+<p>
+Cada burbuja explotada representa una pequeña victoria. Cada nivel completado fortalece memoria, concentración y razonamiento lógico.
+</p>
+
+<p>
+Con PithyPop, practicar multiplicación se siente como jugar.
 </p>
 
 </article>
@@ -243,26 +230,26 @@ Los diferentes niveles muestran ejercicios que estimulan la respuesta intuitiva,
 </div>
 </section>
 
-<!-- CTA -->
 <section class="section">
 <div class="container">
 
 <div class="subscribe">
 
-<h2>Aprende jugando con PithyPop</h2>
+<h2>Descarga PithyPop gratis</h2>
 
 <p style="margin-bottom:18px;">
-Practica multiplicación con PitCoins, desafíos y diversión.
+Desafía tu memoria y aprende multiplicación jugando.
 </p>
 
-<a href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop" class="btn-primary">Descargar juego</a>
+<a href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop" class="btn-primary">
+Descargar juego
+</a>
 
 </div>
 
 </div>
 </section>
 
-<!-- Subscribe -->
 <section id="subscribe" class="section">
 <div class="container">
 
@@ -291,9 +278,6 @@ target="hidden_iframe">
 <iframe name="hidden_iframe" style="display:none;"></iframe>
 
 </div>
-
-</div>
-</section>
 
 <!-- Related -->
 <section class="section">
@@ -427,19 +411,19 @@ const menu = document.querySelector('.mobile-menu');
 const links = document.querySelectorAll('.mobile-menu a');
 
 btn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-  btn.classList.toggle('active');
+menu.classList.toggle('open');
+btn.classList.toggle('active');
 
-  const expanded = btn.getAttribute('aria-expanded') === 'true';
-  btn.setAttribute('aria-expanded', !expanded);
+const expanded = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', !expanded);
 });
 
 links.forEach(link => {
-  link.addEventListener('click', () => {
-    menu.classList.remove('open');
-    btn.classList.remove('active');
-    btn.setAttribute('aria-expanded', 'false');
-  });
+link.addEventListener('click', () => {
+menu.classList.remove('open');
+btn.classList.remove('active');
+btn.setAttribute('aria-expanded', 'false');
+});
 });
 </script>
 
