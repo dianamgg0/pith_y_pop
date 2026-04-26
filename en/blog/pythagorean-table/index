@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pythagorean Table for Kids | Learn Times Tables Without Stress | PithyPop</title>
+
+<meta name="description" content="Discover how the Pythagorean table helps children learn multiplication tables without stressful memorization. A visual, fun, and intuitive method.">
+
+<link rel="canonical" href="https://pithypop.com/en/blog/pythagorean-table/">
+<meta name="robots" content="index, follow">
+
+<link rel="alternate" hreflang="es" href="https://pithypop.com/blog/tabla-pitagorica/">
+<link rel="alternate" hreflang="en" href="https://pithypop.com/en/blog/pythagorean-table/">
+<link rel="alternate" hreflang="x-default" href="https://pithypop.com/blog/tabla-pitagorica/">
+
+<!-- Favicon -->
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+
+<!-- Apple -->
+<link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
+
+<!-- PWA -->
+<link rel="manifest" href="../../../site.webmanifest">
+<meta name="theme-color" content="#58C26D">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="mobile-web-app-capable" content="yes">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Pythagorean Table for Kids | PithyPop">
+<meta property="og:description" content="Learn multiplication tables with a visual and intuitive method.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://pithypop.com/en/blog/pythagorean-table/">
+<meta property="og:image" content="https://pithypop.com/images/social.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PithyPop - Learn Times Tables Through Play">
+<meta name="twitter:description" content="Fun math for kids">
+<meta name="twitter:image" content="https://pithypop.com/images/social.jpg">
+
+<link rel="stylesheet" href="../../../css/styles.css">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKWWH08690"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-KKWWH08690');
+</script>
+
+<script>
+gtag('config', 'G-KKWWH08690', {
+  page_path: window.location.pathname,
+});
+</script>
+
+<script>
+window.basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: "";
+</script>
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Article",
+"headline":"Pythagorean Table for Kids",
+"description":"Learn multiplication tables without stress using visual support.",
+"author":{"@type":"Organization","name":"PithyPop"},
+"publisher":{"@type":"Organization","name":"PithyPop"},
+"mainEntityOfPage":"https://pithypop.com/en/blog/pythagorean-table/"
+}
+</script>
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="top-strip"></div>
+
+<div class="header-bar">
+
+<div class="header-left">
+<img src="../../../images/logo.svg" class="logo" alt="PithyPop">
+<img src="../../../images/pithypop.svg" class="brand-logo" alt="PithyPop">
+</div>
+
+<div class="header-actions">
+
+<button class="lang-switch">ES</button>
+
+<button class="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+</div>
+</div>
+
+<nav class="mobile-menu">
+<a href="../../../">Home</a>
+<a href="../../blog">Resources</a>
+<a href="#subscribe">Subscribe</a>
+<a href="../....//">App</a>
+</nav>
+
+</header>
+
+<main>
+
+<section class="section">
+<div class="container">
+
+<h1 class="section-title">
+Pythagorean Table for Kids<br>
+Learn Times Tables Without Stress
+</h1>
+
+<p class="hero-sub" style="text-align:center;max-width:760px;margin:0 auto;">
+A visual tool that helps children and families understand multiplication naturally, without pressure and with more confidence.
+</p>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container article-wrap">
+
+<img
+src="../../../images/tabla-pitagorica-articulo.jpg"
+class="article-cover"
+alt="Pythagorean table to learn multiplication"
+loading="lazy"
+width="1200"
+height="675">
+
+<article class="article-content">
+
+<h2>What Is the Pythagorean Table?</h2>
+
+<p>
+The Pythagorean table, also known as the multiplication chart, organizes numbers in rows and columns to show multiplication results in sequence. When two numbers intersect, the answer appears. By moving vertically or horizontally with a finger, children can identify the pattern.
+</p>
+
+<p>
+For example, moving through the row of 4:
+</p>
+
+<div class="serie animar-serie">
+<div class="fila">4 × 6 = 24</div>
+
+<div class="fila suma"><span>+4</span></div>
+<div class="fila resultado">4 × 7 = 28</div>
+
+<div class="fila suma"><span>+4</span></div>
+<div class="fila resultado">4 × 8 = 32</div>
+
+<div class="fila suma"><span>+4</span></div>
+<div class="fila resultado">4 × 9 = 36</div>
+</div>
+
+<p>
+This makes multiplication visible, logical, and easy to explore.
+</p>
+
+<h2>Why It Helps Kids Learn Without Stress</h2>
+
+<p>
+Many children feel anxious when they think they must memorize all the times tables quickly. The Pythagorean table reduces that pressure because it first helps them understand number relationships.
+</p>
+
+<ul>
+<li>Reduces fear of mistakes</li>
+<li>Builds confidence by checking answers</li>
+<li>Turns memorization into understanding</li>
+<li>Allows learning at their own pace</li>
+<li>Makes practice friendlier</li>
+</ul>
+
+<h2>Magic Patterns Kids Discover</h2>
+
+<p>
+The Pythagorean table is full of patterns that make learning easier:
+</p>
+
+<ul>
+<li>The diagonal shows perfect squares</li>
+<li>3 × 4 equals 4 × 3</li>
+<li>Double facts repeat</li>
+<li>Rows grow with a steady rhythm</li>
+<li>Most importantly, children realize multiplication is repeated addition</li>
+</ul>
+
+<p>
+When a child discovers patterns, they stop memorizing by obligation and begin to understand.
+</p>
+
+<h2>How to Use It at Home</h2>
+
+<ol>
+<li>Start with smaller tables.</li>
+<li>Find answers in rows and columns.</li>
+<li>Ask quick questions like a game.</li>
+<li>Look for patterns together.</li>
+<li>Celebrate every success.</li>
+</ol>
+
+<p>
+Download the printable version, laminate it, and use it daily as a support tool to practice operations 👇
+</p>
+
+<p>
+<a href="../../../tabla-pitagorica.pdf" class="btn-primary">
+Download Pythagorean Table PDF
+</a>
+</p>
+
+<h2>How We Do It at PithyPop</h2>
+
+<p>
+At PithyPop we combine visual learning, rewards, and adventure. Pit guides children through challenges where practicing math feels like play.
+</p>
+
+<p>
+Different levels include exercises that stimulate intuitive responses and pattern recognition.
+</p>
+
+</article>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<div class="subscribe">
+
+<h2>Learn Through Play with PithyPop</h2>
+
+<p style="margin-bottom:18px;">
+Practice multiplication with PitCoins, challenges, and fun.
+</p>
+
+<a href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop" class="btn-primary">Download Game</a>
+
+</div>
+
+</div>
+</section>
+
+<section id="subscribe" class="section">
+<div class="container">
+
+<div class="subscribe">
+
+<h2>Get Free Activities</h2>
+
+<form 
+id="mc-form"
+action="https://pithypop.us4.list-manage.com/subscribe/post?u=ce7060ab31b0750080d1a9743&id=df599e6144&f_id=00dec2e9f0"
+method="post"
+target="hidden_iframe">
+
+<input type="email" name="EMAIL" placeholder="Your email" required>
+
+<div style="position:absolute;left:-5000px;">
+<input type="text" name="b_ce7060ab31b0750080d1a9743_df599e6144">
+</div>
+
+<button>Subscribe</button>
+
+</form>
+
+<div id="mc-message">Thanks for subscribing</div>
+
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">More Articles to Learn</h2>
+
+<div class="cards">
+
+<article class="card">
+<a href="../learn-multiplication-through-play/">
+<img src="../../../images/huevo.jpg" loading="lazy" alt="">
+<div class="card-body">
+<h3>Learn Multiplication Through Play</h3>
+<p>Fun strategies for kids.</p>
+</div>
+</a>
+</article>
+
+<article class="card">
+<a href="../math-for-kids/">
+<img src="../../../images/popit.jpg" loading="lazy" alt="">
+<div class="card-body">
+<h3>Math for Kids</h3>
+<p>How to improve confidence and skills.</p>
+</div>
+</a>
+</article>
+
+<article class="card">
+<a href="../math-games/">
+<img src="../../../images/popit.jpg" loading="lazy" alt="">
+<div class="card-body">
+<h3>Math Games</h3>
+<p>Learn while having fun.</p>
+</div>
+</a>
+</article>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer class="footer">
+<div class="container">
+© PithyPop
+</div>
+</footer>
+
+<script>
+document.getElementById("mc-form").addEventListener("submit", function () {
+setTimeout(function(){
+document.getElementById("mc-message").style.display="block";
+document.getElementById("mc-form").reset();
+},800);
+});
+</script>
+
+<script>
+document.querySelector(".lang-switch").addEventListener("click", function(){
+
+const isEnglish = location.pathname.includes("/en/");
+
+if(isEnglish){
+location.href = window.basePath + "/blog/tabla-pitagorica/";
+}else{
+location.href = window.basePath + "/en/blog/pythagorean-table/";
+}
+
+});
+</script>
+
+<!-- Animación en loop -->
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+
+const serie = document.querySelector(".animar-serie");
+let intervalo = null;
+
+function iniciarAnimacion(){
+reproducir();
+intervalo = setInterval(()=>{
+reproducir();
+},5600);
+}
+
+function reproducir(){
+serie.classList.remove("activa");
+void serie.offsetWidth;
+serie.classList.add("activa");
+}
+
+function detenerAnimacion(){
+clearInterval(intervalo);
+intervalo = null;
+serie.classList.remove("activa");
+}
+
+const observer = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+if(!intervalo){
+iniciarAnimacion();
+}
+}else{
+detenerAnimacion();
+}
+});
+},{
+threshold:0.45
+});
+
+observer.observe(serie);
+
+});
+</script>
+
+<script>
+const btn = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.mobile-menu');
+const links = document.querySelectorAll('.mobile-menu a');
+
+btn.addEventListener('click', () => {
+menu.classList.toggle('open');
+btn.classList.toggle('active');
+
+const expanded = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', !expanded);
+});
+
+links.forEach(link => {
+link.addEventListener('click', () => {
+menu.classList.remove('open');
+btn.classList.remove('active');
+btn.setAttribute('aria-expanded', 'false');
+});
+});
+</script>
+
+</body>
+</html>
