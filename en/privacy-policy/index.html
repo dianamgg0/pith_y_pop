@@ -140,9 +140,9 @@ const isEnglish = window.location.pathname.includes("/en/");
 
 if(isEnglish){
 localStorage.setItem("pithypop_lang","es");
-window.location.href = basePath + "/";
+window.location.href = basePath + "/privacy-policy/";
 }else{
-localStorage.setItem("pithypop_lang","/privacy-policy/");
+localStorage.setItem("pithypop_lang","en");
 window.location.href = basePath + "/en/privacy-policy/";
 }
 
