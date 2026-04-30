@@ -126,14 +126,49 @@
 </div>
 </footer>
 
-<!-- Scripts reutilizados -->
+<!-- Botón cambio de idioma -->
+<script>
 
+const basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: "";
+
+document.querySelector(".lang-switch").addEventListener("click",function(){
+
+const isEnglish = window.location.pathname.includes("/en/");
+
+if(isEnglish){
+localStorage.setItem("pithypop_lang","es");
+window.location.href = basePath + "/";
+}else{
+localStorage.setItem("pithypop_lang","en");
+window.location.href = basePath + "/en/";
+}
+
+});
+</script>
+
+<!-- Menú hamburguesa -->
 <script>
 const btn = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.mobile-menu');
+const links = document.querySelectorAll('.mobile-menu a');
 
 btn.addEventListener('click', () => {
   menu.classList.toggle('open');
+  btn.classList.toggle('active');
+
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
+});
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('open');
+    btn.classList.remove('active');
+    btn.setAttribute('aria-expanded', 'false');
+  });
 });
 </script>
 
