@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Términos y Condiciones | PithyPop</title>
+
+<meta name="description" content="Términos y condiciones de uso de PithyPop. Conoce las reglas de uso de nuestra app educativa y contenido.">
+
+<link rel="canonical" href="https://pithypop.com/terms/">
+<meta name="robots" content="index, follow">
+
+<link rel="alternate" hreflang="es" href="https://pithypop.com/terms/">
+<link rel="alternate" hreflang="en" href="https://pithypop.com/en/terms/">
+<link rel="alternate" hreflang="x-default" href="https://pithypop.com/terms/">
+
+<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="top-strip"></div>
+
+  <div class="header-bar">
+
+    <div class="header-left">
+      <img src="/images/logo.svg" class="logo" alt="PithyPop">
+      <img src="/images/pithypop.svg" class="brand-logo" alt="PithyPop">
+    </div>
+
+    <div class="header-actions">
+      <button class="lang-switch">EN</button>
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+  </div>
+
+  <nav class="mobile-menu">
+    <a href="/">Inicio</a>
+    <a href="/blog/">Recursos</a>
+  </nav>
+
+</header>
+
+<main>
+
+<section class="section">
+<div class="container">
+
+<h1>Términos y Condiciones</h1>
+<p><strong>Última actualización:</strong> 30 de abril de 2026</p>
+
+<p>Estos Términos y Condiciones regulan el uso del sitio web y la aplicación PithyPop. Al acceder o utilizar nuestros servicios, aceptas estos términos.</p>
+
+<h2>1. Uso del servicio</h2>
+
+<p>PithyPop es una herramienta educativa diseñada para apoyar el aprendizaje de las matemáticas de forma lúdica.</p>
+
+<p>El usuario se compromete a utilizar el sitio y la aplicación de forma adecuada y conforme a la ley.</p>
+
+---
+
+<h2>2. Propiedad intelectual</h2>
+
+<p>Todo el contenido de PithyPop, incluyendo diseño, gráficos, ilustraciones, textos, mecánicas de juego y software, es propiedad de PithyPop.</p>
+
+<p>No está permitido copiar, distribuir o modificar el contenido sin autorización previa.</p>
+
+---
+
+<h2>3. Uso por menores</h2>
+
+<p>PithyPop está orientado a niños. Se recomienda que el uso se realice bajo la supervisión de padres o tutores.</p>
+
+---
+
+<h2>4. Limitación de responsabilidad</h2>
+
+<p>PithyPop se ofrece con fines educativos. No garantizamos resultados específicos en el aprendizaje.</p>
+
+<p>No nos hacemos responsables por el uso indebido del servicio o por interrupciones técnicas fuera de nuestro control.</p>
+
+---
+
+<h2>5. Enlaces externos</h2>
+
+<p>El sitio puede contener enlaces a servicios externos. No tenemos control sobre su contenido o políticas.</p>
+
+---
+
+<h2>6. Modificaciones</h2>
+
+<p>Podemos actualizar estos términos en cualquier momento. Se recomienda revisarlos periódicamente.</p>
+
+---
+
+<h2>7. Terminación</h2>
+
+<p>Nos reservamos el derecho de limitar o suspender el acceso al servicio en caso de uso indebido.</p>
+
+---
+
+<h2>8. Contacto</h2>
+
+<p>Para cualquier consulta:</p>
+
+<p><strong>Email:</strong> contacto@pithypop.com</p>
+
+</div>
+</section>
+
+</main>
+
+<footer class="footer">
+<div class="container">
+© PithyPop · 
+<a href="/privacy-policy/">Privacy Policy</a> · 
+<a href="/terms/">Terms</a>
+</div>
+</footer>
+
+<!-- Botón cambio de idioma -->
+<script>
+
+const basePath =
+location.hostname.includes("github.io")
+? "/pith_y_pop"
+: "";
+
+document.querySelector(".lang-switch").addEventListener("click",function(){
+
+const isEnglish = window.location.pathname.includes("/en/");
+
+if(isEnglish){
+localStorage.setItem("pithypop_lang","es");
+window.location.href = basePath + "/terms/";
+}else{
+localStorage.setItem("pithypop_lang","en");
+window.location.href = basePath + "/en/terms/";
+}
+
+});
+</script>
+
+<!-- Menú hamburguesa -->
+<script>
+const btn = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.mobile-menu');
+const links = document.querySelectorAll('.mobile-menu a');
+
+btn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+  btn.classList.toggle('active');
+
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
+});
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('open');
+    btn.classList.remove('active');
+    btn.setAttribute('aria-expanded', 'false');
+  });
+});
+</script>
+
+</body>
+</html>
