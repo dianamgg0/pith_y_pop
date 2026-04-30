@@ -103,4 +103,36 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- PRIVACY ES -->
+<url>
+  <loc>https://pithypop.com/privacy-policy/</loc>
+  <lastmod>2026-04-30</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.3</priority>
+</url>
+
+<!-- TERMS ES -->
+<url>
+  <loc>https://pithypop.com/terms/</loc>
+  <lastmod>2026-04-30</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.3</priority>
+</url>
+
+<!-- PRIVACY EN -->
+<url>
+  <loc>https://pithypop.com/en/privacy-policy/</loc>
+  <lastmod>2026-04-30</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.3</priority>
+</url>
+
+<!-- TERMS EN -->
+<url>
+  <loc>https://pithypop.com/en/terms/</loc>
+  <lastmod>2026-04-30</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.3</priority>
+</url>
+
 </urlset>
