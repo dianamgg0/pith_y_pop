@@ -139,10 +139,10 @@ document.querySelector(".lang-switch").addEventListener("click",function(){
 const isEnglish = window.location.pathname.includes("/en/");
 
 if(isEnglish){
-localStorage.setItem("pithypop_lang","es");
+localStorage.setItem("pithypop_lang","/privacy-policy/");
 window.location.href = basePath + "/";
 }else{
-localStorage.setItem("pithypop_lang","en");
+localStorage.setItem("pithypop_lang","/en/privacy-policy/");
 window.location.href = basePath + "/en/";
 }
 
