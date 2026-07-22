@@ -862,5 +862,27 @@ margin-bottom:60px;
   --section-title: clamp(28px, 2vw, 36px);
   }
 }
+
+.instagram-button{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 14px;
+    background:#E4405F;
+    color:#fff;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.2s;
+}
+
+.instagram-button:hover{
+    background:#C13584;
+    transform:translateY(-1px);
+}
+
+.instagram-button i{
+    font-size:1.3rem;
+}
   
 
