@@ -863,20 +863,26 @@ margin-bottom:60px;
   }
 }
 
-.instagram-link {
-    color: #E4405F;
-    text-decoration: none;
-    font-weight: 600;
+.instagram-button{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 14px;
+    background:#E4405F;
+    color:#fff;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.2s;
 }
 
-.instagram-link i {
-    font-size: 1.4rem;
-    margin-right: 6px;
-    vertical-align: middle;
+.instagram-button:hover{
+    background:#C13584;
+    transform:translateY(-1px);
 }
 
-.instagram-link:hover {
-    color: #C13584;
+.instagram-button i{
+    font-size:1.3rem;
 }
   
 
