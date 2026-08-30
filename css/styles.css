@@ -884,5 +884,16 @@ margin-bottom:60px;
 .instagram-button i{
     font-size:1.3rem;
 }
+
+.youtube-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.youtube-button i {
+    font-size: 16px;
+}
   
 
